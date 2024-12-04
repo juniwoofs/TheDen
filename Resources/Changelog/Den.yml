@@ -433,3 +433,92 @@ Entries:
   id: 40
   time: '2024-11-30T03:36:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/75
+- author: Juniper
+  changes:
+    - type: Add
+      message: '[Saltern] added a second hotplate to chemistry'
+    - type: Add
+      message: '[Saltern] added a duffel bag of surgical tools to surgery'
+    - type: Add
+      message: '[Saltern] added plasma to chemistry'
+    - type: Add
+      message: '[Saltern] added a VendoMat to epi'
+    - type: Add
+      message: '[Saltern] added a dock for the Pathfinder at salv '
+    - type: Add
+      message: '[Saltern] added steel for constructing atmospherics'
+    - type: Tweak
+      message: '[Saltern] Tweaked position of waste vent pipe'
+    - type: Tweak
+      message: '[Saltern] Moved the electrolysis board from a machine to the chem locker'
+    - type: Remove
+      message: '[Saltern] Removed atmospherics piping'
+  id: 41
+  time: '2024-11-30T04:42:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/76
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed glimmer.
+  id: 42
+  time: '2024-11-30T10:48:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/77
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added glimmer once more.
+    - type: Tweak
+      message: Lowered the base glimmer drain from 0.1 to 0.025
+    - type: Remove
+      message: Removed Glimmer Wisps.
+    - type: Remove
+      message: Removed "free prober" event.
+    - type: Remove
+      message: Removed Revenants while I fix them.
+  id: 43
+  time: '2024-12-01T05:59:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/82
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: The Grimble plush has been added.
+  id: 44
+  time: '2024-12-02T00:53:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/83
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Irish accent.
+    - type: Add
+      message: Added Irish, Spanish, French, Russian, and Mobster accents to loadouts.
+  id: 45
+  time: '2024-12-03T18:02:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/85
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: You can pick up mobs again with left click.
+    - type: Fix
+      message: No more mob jug spill, including you revenants.
+    - type: Fix
+      message: Set the Gloves of the North Star to the proper attack speed.
+    - type: Fix
+      message: Medibots will no longer try to heal borgs.
+    - type: Fix
+      message: Revenants work again and are back!
+    - type: Tweak
+      message: Moved the uplink deception category into utility.
+    - type: Tweak
+      message: The ChemMaster is now sorted.
+  id: 46
+  time: '2024-12-04T18:09:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/89
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added Nanotrasen Representative
+    - type: Add
+      message: Added Blueshield Officer
+  id: 47
+  time: '2024-12-04T18:29:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/86

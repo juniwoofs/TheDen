@@ -973,7 +973,7 @@ namespace Content.Shared.Interaction
             bool checkCanInteract = true,
             bool checkCanUse = true)
         {
-            if ((IsDeleted(user) || IsDeleted(used) || IsDeleted(target)))
+            if (IsDeleted(user) || IsDeleted(used) || IsDeleted(target))
                 return;
 
             if (checkCanInteract && !_actionBlockerSystem.CanInteract(user, target))
@@ -990,6 +990,7 @@ namespace Content.Shared.Interaction
             RaiseLocalEvent(target, interactUsingEvent, true);
             DoContactInteraction(user, used, interactUsingEvent);
             DoContactInteraction(user, target, interactUsingEvent);
+            DoContactInteraction(used, target, interactUsingEvent);
 
             if (interactUsingEvent.Handled)
                 return;
@@ -1001,10 +1002,10 @@ namespace Content.Shared.Interaction
         ///     Used when clicking on an entity resulted in no other interaction. Used for low-priority interactions.
         /// </summary>
         public void InteractDoAfter(
-            EntityUid user, 
-            EntityUid used, 
-            EntityUid? target, 
-            EntityCoordinates clickLocation, 
+            EntityUid user,
+            EntityUid used,
+            EntityUid? target,
+            EntityCoordinates clickLocation,
             bool canReach,
             bool checkDeletion = false
         )
@@ -1019,7 +1020,10 @@ namespace Content.Shared.Interaction
             RaiseLocalEvent(used, afterInteractEvent);
             DoContactInteraction(user, used, afterInteractEvent);
             if (canReach)
+            {
                 DoContactInteraction(user, target, afterInteractEvent);
+                DoContactInteraction(used, target, afterInteractEvent);
+            }
 
             if (afterInteractEvent.Handled)
                 return;
@@ -1032,7 +1036,10 @@ namespace Content.Shared.Interaction
 
             DoContactInteraction(user, used, afterInteractUsingEvent);
             if (canReach)
+            {
                 DoContactInteraction(user, target, afterInteractUsingEvent);
+                DoContactInteraction(used, target, afterInteractUsingEvent);
+            }
         }
 
         #region ActivateItemInWorld
@@ -1088,10 +1095,6 @@ namespace Content.Shared.Interaction
             // Check if interacted entity is in the same container, the direct child, or direct parent of the user.
             // This is bypassed IF the interaction happened through an item slot (e.g., backpack UI)
             if (checkAccess && !_containerSystem.IsInSameOrParentContainer(user, used) && !CanAccessViaStorage(user, used))
-                return false;
-
-            // Does the user have hands?
-            if (!HasComp<HandsComponent>(user))
                 return false;
 
             complexInteractions ??= SupportsComplexInteractions(user);
@@ -1325,7 +1328,9 @@ namespace Content.Shared.Interaction
             if (uidB == null || args?.Handled == false)
                 return;
 
-            DebugTools.AssertNotEqual(uidA, uidB.Value);
+            // we don't need a debug assert, just return
+            if (uidA == uidB.Value)
+                return;
 
             if (!TryComp(uidA, out MetaDataComponent? metaA) || metaA.EntityPaused)
                 return;

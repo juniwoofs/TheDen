@@ -1016,37 +1016,44 @@ namespace Content.Shared.CCVar
             CVarDef.Create("ahelp.admin_prefix_webhook", true, CVar.SERVERONLY);
 
         /// <summary>
-    ///     If an admin replies to users from discord, should it use their discord role color? (if applicable)
-    ///     Overrides DiscordReplyColor and AdminBwoinkColor.
-    /// </summary>
-    public static readonly CVarDef<bool> UseDiscordRoleColor =
-        CVarDef.Create("admin.use_discord_role_color", false, CVar.SERVERONLY);
+        ///     If an admin replies to users from discord, should it use their discord role color? (if applicable)
+        ///     Overrides DiscordReplyColor and AdminBwoinkColor.
+        /// </summary>
+        public static readonly CVarDef<bool> UseDiscordRoleColor =
+            CVarDef.Create("admin.use_discord_role_color", false, CVar.SERVERONLY);
 
-    /// <summary>
-    ///     If an admin replies to users from discord, should it use their discord role color? (if applicable)
-    ///     Overrides DiscordReplyColor and AdminBwoinkColor.
-    /// </summary>
-    public static readonly CVarDef<bool> UseDiscordRoleName =
-        CVarDef.Create("admin.use_discord_role_name", false, CVar.SERVERONLY);
+        /// <summary>
+        ///     If an admin replies to users from discord, should it use their discord role color? (if applicable)
+        ///     Overrides DiscordReplyColor and AdminBwoinkColor.
+        /// </summary>
+        public static readonly CVarDef<bool> UseDiscordRoleName =
+            CVarDef.Create("admin.use_discord_role_name", false, CVar.SERVERONLY);
 
-    /// <summary>
-    ///     The text before an admin's name when replying from discord to indicate they're speaking from discord.
-    /// </summary>
-    public static readonly CVarDef<string> DiscordReplyPrefix =
-        CVarDef.Create("admin.discord_reply_prefix", "(DC) ", CVar.SERVERONLY);
+        /// <summary>
+        ///     The text before an admin's name when replying from discord to indicate they're speaking from discord.
+        /// </summary>
+        public static readonly CVarDef<string> DiscordReplyPrefix =
+            CVarDef.Create("admin.discord_reply_prefix", "(DC) ", CVar.SERVERONLY);
 
-    /// <summary>
-    ///     The color of the names of admins. This is the fallback color for admins.
-    /// </summary>
-    public static readonly CVarDef<string> AdminBwoinkColor =
-        CVarDef.Create("admin.admin_bwoink_color", "red", CVar.SERVERONLY);
+        /// <summary>
+        ///     The color of the names of admins. This is the fallback color for admins.
+        /// </summary>
+        public static readonly CVarDef<string> AdminBwoinkColor =
+            CVarDef.Create("admin.admin_bwoink_color", "red", CVar.SERVERONLY);
 
-    /// <summary>
-    ///     The color of the names of admins who reply from discord. Leave empty to disable.
-    ///     Overrides AdminBwoinkColor.
-    /// </summary>
-    public static readonly CVarDef<string> DiscordReplyColor =
-        CVarDef.Create("admin.discord_reply_color", string.Empty, CVar.SERVERONLY);
+        /// <summary>
+        ///     The color of the names of admins who reply from discord. Leave empty to disable.
+        ///     Overrides AdminBwoinkColor.
+        /// </summary>
+        public static readonly CVarDef<string> DiscordReplyColor =
+            CVarDef.Create("admin.discord_reply_color", string.Empty, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Use the admin's Admin OOC color in bwoinks.
+        ///     If either the ooc color or this is not set, uses the admin.admin_bwoink_color value.
+        /// </summary>
+        public static readonly CVarDef<bool> UseAdminOOCColorInBwoinks =
+            CVarDef.Create("admin.bwoink_use_admin_ooc_color", false, CVar.SERVERONLY);
 
         /*
          * Explosions
@@ -2488,7 +2495,7 @@ namespace Content.Shared.CCVar
         ///     Note that this is randomized and this is an average value.
         /// </summary>
         public static readonly CVarDef<float> GlimmerLostPerSecond =
-            CVarDef.Create("glimmer.passive_drain_per_second", 0.1f, CVar.SERVERONLY);
+            CVarDef.Create("glimmer.passive_drain_per_second", 0.025f, CVar.SERVERONLY);
 
         /// <summary>
         ///     Whether random rolls for psionics are allowed.
@@ -2692,7 +2699,11 @@ namespace Content.Shared.CCVar
         #region Mood System
 
         public static readonly CVarDef<bool> MoodEnabled =
+        #if RELEASE
             CVarDef.Create("mood.enabled", true, CVar.SERVER);
+        #else
+            CVarDef.Create("mood.enabled", false, CVar.SERVER);
+        #endif
 
         public static readonly CVarDef<bool> MoodIncreasesSpeed =
             CVarDef.Create("mood.increases_speed", true, CVar.SERVER);
@@ -2789,5 +2800,13 @@ namespace Content.Shared.CCVar
         /// Requires auto voting to be enabled.
         public static readonly CVarDef<bool> PresetAutoVoteEnabled =
             CVarDef.Create("vote.preset_autovote_enabled", true, CVar.SERVERONLY);
+
+        /// <summary>
+        /// Set to true to enable the dynamic hostname system.
+        /// Automatically updates the hostname to include current map and preset.
+        /// Configure what that looks like for you in Resources/Prototypes/Locale/en-US/dynamichostname/hostname.ftl
+        /// </summary>
+        public static readonly CVarDef<bool> UseDynamicHostname =
+            CVarDef.Create("game.use_dynamic_hostname", false, CVar.SERVERONLY);
     }
 }
