@@ -139,6 +139,13 @@
   - CrossbowBolt # Frontier
   - CrossbowBoltBroadhead # Frontier
   - ClothingBeltQuiverCrossbow # Frontier
+  - MagazineLPistolPractice # Imp
+  - MagazineLPistol # Imp
+  - MagazineLPistolEmpty # Imp
+  - MagazineBoxLPistol # Imp
+  - MagazineBoxLPistolPractice # Imp
+  - MagazineDMR # Imp
+  - MagazineDMREmpty # Imp
 
 - type: latheRecipePack
   id: SecurityTechFabDynamicAwfulDen
@@ -273,12 +280,9 @@
   # DEN
   - FullAutoConversionKit # Imp
   - HyperBurstConversionKit # Imp
-  - MagazineBoxLPistol # Imp
   - MagazineBoxLPistolIncendiary # Imp
-  - MagazineBoxLPistolPractice # Imp
   - MagazineBoxLPistolUranium # Imp
-  - MagazineLPistol # Imp
-  - MagazineLPistolEmpty # Imp
   - MagazineLPistolIncendiary # Imp
-  - MagazineLPistolPractice # Imp
   - MagazineLPistolUranium # Imp
+  - MagazineDMRIncendiary # Imp
+  - MagazineDMRUranium # Imp

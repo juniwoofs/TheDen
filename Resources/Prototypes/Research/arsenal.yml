@@ -76,6 +76,7 @@
   cost: 10000
   recipeUnlocks:
   - BoxShotgunIncendiary
+  - MagazineDMRIncendiary
   - MagazineRifleIncendiary
   - MagazinePistolIncendiary
   - MagazinePistolSubMachineGunIncendiary
@@ -111,6 +112,7 @@
   recipeUnlocks:
   - MagazineRifleUranium
   - MagazinePistolUranium
+  - MagazineDMRUranium
   - MagazinePistolSubMachineGunUranium
   - MagazineMagnumUranium
   - MagazineLightRifleUranium
