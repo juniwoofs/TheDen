@@ -522,3 +522,24 @@ Entries:
   id: 47
   time: '2024-12-04T18:29:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/86
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Glimmer drain is now 2x faster than originally.
+  id: 48
+  time: '2024-12-05T00:47:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/91
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Tweaked the hypno messages.
+  id: 49
+  time: '2024-12-05T04:27:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/92
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added flip, jump, and spin emotes.
+  id: 50
+  time: '2024-12-07T01:23:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/94
