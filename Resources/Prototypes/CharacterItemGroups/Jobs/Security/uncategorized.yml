@@ -98,6 +98,8 @@
     - type: loadout
       id: LoadoutSecurityEquipmentTruncheon
     - type: loadout
+      id: LoadoutSecurityEquipmentEnergySword
+    - type: loadout
       id: LoadoutSecurityPistolSvalin
     - type: loadout
       id: LoadoutSecurityEnergyGunMini
@@ -127,6 +129,8 @@
       id: LoadoutSecurityArgenti
     - type: loadout
       id: LoadoutSecurityArgentiNonLethal
+    - type: loadout
+      id: LoadoutSecurityPistolEnergyRevolver
 
 - type: characterItemGroup
   id: LoadoutSecurityEyes
@@ -166,6 +170,8 @@
       id: LoadoutClothingHeadHelmetBasic
     - type: loadout
       id: LoadoutSecurityHeadHelmetInsulated
+    - type: loadout
+      id: LoadoutSecurityHeadHelmetCombat
 
 #- type: characterItemGroup
 #  id: LoadoutSecurityId
@@ -183,6 +189,8 @@
   items:
     - type: loadout
       id: LoadoutSecurityMaskGasSwat
+    - type: loadout
+      id: LoadoutSecurityMaskGasCombat
 
 - type: characterItemGroup
   id: LoadoutSecurityOuter
@@ -226,3 +234,7 @@
       id: LoadoutUniformJumpsuitSecFormal
     - type: loadout
       id: LoadoutUniformJumpsuitSecSummer
+    - type: loadout
+      id: LoadoutSecurityUniformEnvirosuitBlue
+    - type: loadout
+      id: LoadoutSecurityUniformEnvirosuitGrey

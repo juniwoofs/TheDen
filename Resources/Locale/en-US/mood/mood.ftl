@@ -1,4 +1,4 @@
-﻿mood-show-effects-start = [font size=12]Mood:[/font]
+mood-show-effects-start = [font size=12]Mood:[/font]
 
 mood-effect-HungerOverfed = I ate so much, I feel as though I'm about to burst!
 mood-effect-HungerOkay = I am feeling full.
@@ -70,6 +70,10 @@ mood-effect-NicotineBenefit =
     I feel as if I have been standing my entire life and I just sat down.
 mood-effect-NicotineWithdrawal =
     I could really go for a smoke right now.
+mood-effect-NicotineWithdrawal2 =
+    I should... get another smoke shouldn't I?
+mood-effect-NicotineWithdrawal3 =
+    I can handle not getting another smoke, even through the itch... right?
 
 # Surgery
 mood-effect-SurgeryPain = The surgery hurts.
@@ -78,3 +82,10 @@ mood-effect-EthanolBenefit =
     I feel so relaxed from drinking.
 mood-effect-SpaceDrugsBenefit =
     Woaaaah, such pretty colors maaaaan. It's like I can hear color and taste sound maaan.
+
+# Plasmaman
+mood-effect-PlasmamanIngestPlasma =
+    My body is rejuvenated by the fresh plasma coursing through my body.
+
+mood-effect-PlasmamanIngestMilk =
+    I can feel the milk's calcium repairing my bones. This is dairy-lightful!

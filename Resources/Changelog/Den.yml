@@ -1408,3 +1408,354 @@ Entries:
   id: 117
   time: '2025-01-22T02:01:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/183
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: >-
+        Added spider steppy to spiders and Arachne (celebrate all 2 arachne
+        players!)
+  id: 118
+  time: '2025-01-22T07:22:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/186
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Baikal Station (FOR TEST PURPOSES ONLY)
+  id: 119
+  time: '2025-01-22T08:12:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/185
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Soul-Shatter, a unique double barrel shotgun issued to
+        Mantises intended for use in Code White scenarios against hostile
+        psionics. 
+  id: 120
+  time: '2025-01-22T23:19:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/187
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: 'Sharks are now more ferocious (from Deathnerd on Wizden #31142)'
+  id: 121
+  time: '2025-01-23T00:11:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/188
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added Psych Role to Baikal
+  id: 122
+  time: '2025-01-24T00:40:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/191
+- author: 'juniwoofs and Mike32oz '
+  changes:
+    - type: Add
+      message: Added the Prideomat (being gay is now legal!)
+    - type: Add
+      message: Added a reagent grinder to chem! (have fun blending things!)
+    - type: Add
+      message: Added a drain to disposals (now you wont have the infinite slop puddle)
+    - type: Add
+      message: Added a seed vendor to perma (finally, food for the poor)
+    - type: Add
+      message: >-
+        Added a lot of stuff to maints (a few rooms, loots, and water/fuel
+        tanks)
+    - type: Add
+      message: Added the gas miners the new mapping tools took from us (no longer 1984)
+    - type: Add
+      message: Added a few things of loot to the outside of the station
+    - type: Add
+      message: Added curtains to perma (you have a lil privacy now)
+    - type: Tweak
+      message: >-
+        Tweaked the cargo shuttle dock to make it a little easier to dock the
+        shuttle
+    - type: Tweak
+      message: Tweaked epi's front door (better placed now, trust me)
+    - type: Tweak
+      message: >-
+        Tweaked engi's air alarms! (no more dying when the air is spicy thanks
+        mike!)
+    - type: Tweak
+      message: Made engi generally better (thanks also mike!)
+    - type: Fix
+      message: >-
+        Fixed Captain locker being empty (now you can have your fancy tools and
+        dont have to share the two sticks and a rock with the whole platoon)
+    - type: Fix
+      message: >-
+        Fixed the boxing room floors giving you xray vision. (the concrete may
+        have been bought from less reputable sources...)
+    - type: Remove
+      message: >-
+        Removed cameras in the perma dorm rooms (sex is legal again for the
+        incarcerated)
+  id: 123
+  time: '2025-01-24T07:04:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/193
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added combat helmet and gas mask for security. Enforce safety with
+        style!
+  id: 124
+  time: '2025-01-25T03:13:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/194
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added Jenn Plushie for testing purposes.
+  id: 125
+  time: '2025-01-25T03:55:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/195
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Moved Den-specific audio files into their own folders.
+  id: 126
+  time: '2025-01-25T06:37:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/197
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added the Jenn Plushie for everyone to have!
+  id: 127
+  time: '2025-01-26T01:24:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/199
+- author: EE Contributors
+  changes:
+    - type: Add
+      message: Added Tajara and related content
+    - type: Add
+      message: Add Batonbot
+    - type: Add
+      message: Add Disablerbot
+    - type: Add
+      message: Modsuits have been ported from Goobstation!
+    - type: Add
+      message: A new ChemMaster experience has been granted to the people of
+    - type: Add
+      message: Added a new species, the Chitinid.
+    - type: Tweak
+      message: Kill random person objective has been replaced by teaching them
+    - type: Add
+      message: Added playing cards. You may get one in the Games Vendor or as an item
+    - type: Add
+      message: Engineering Hardsuits, Maxim Hardsuit, and Cybersun's Elite
+    - type: Add
+      message: The Plasmaman species has arrived! They need to breathe plasma to
+    - type: Tweak
+      message: Internals are no longer toggled off if you take your helmet off
+    - type: Tweak
+      message: Paradox Anomalies will now spawn with the original person's
+    - type: Fix
+      message: Fixed prisoners not being able to have custom Loadout names and
+    - type: Add
+      message: New hairstyles have arrived, including all Goob LRP-original
+    - type: Add
+      message: 'Added epic IPC wings and Plasmaman wings. '
+    - type: Add
+      message: Added the Iron Jaw face marking.
+    - type: Tweak
+      message: Increased the maximum number of Reptilian chest markings to 3.
+    - type: Tweak
+      message: Vox is now playable again.
+    - type: Fix
+      message: Harpy, Arachne and Lamia can no longer pick the "No Ears" marking
+    - type: Add
+      message: Ported Goob mechs
+  id: 128
+  time: '2025-01-26T04:06:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/200
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Harpies have gained the ability to hoot
+  id: 129
+  time: '2025-01-26T04:50:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/202
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: Copyright law
+  id: 130
+  time: '2025-01-26T05:20:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/203
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fix ChemMaster losing your time added because of a silly goose move.
+    - type: Fix
+      message: >-
+        Fixes the bug where Chitinids lose their light with an anom (Game
+        limitations lets them only have one light at a time but the light
+        returns after losing the anom)
+    - type: Fix
+      message: >-
+        Tweaked Chitinid resistance to be a bit more tanky for the cost of
+        weaker to elemental things like shock and harder to heal due to
+        inability to be injected
+  id: 131
+  time: '2025-01-26T05:52:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/204
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added ability for Arachne to produce silk
+  id: 132
+  time: '2025-01-26T18:27:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/205
+- author: EE contributors
+  changes:
+    - type: Add
+      message: Shadowkins can now be roundstart species again
+    - type: Add
+      message: 'Shadowkins now have lungs, yippee! '
+    - type: Add
+      message: Shadowkins now have organs with funny little descriptions
+    - type: Add
+      message: Shadowkins now have a brand new and expanded list of names
+    - type: Add
+      message: Shadowkins now have roundstart innate telepathy ability rather
+    - type: Tweak
+      message: Shadowkins take more damage from heat, slash, and piercing
+    - type: Tweak
+      message: Shadowkins are much more like their SS13 counterparters
+    - type: Tweak
+      message: Shadowkins now have much better lore in their guidebook entry
+    - type: Tweak
+      message: Shadowkins now have a more fleshed out language (to outside
+    - type: Tweak
+      message: Shadowkins now can be mystagogue, mantis, chaplain, and
+    - type: Tweak
+      message: Shadowkins must now have blackeye trait to play prisoner
+    - type: Tweak
+      message: Shadowkins no longer have blackeye trait by default
+    - type: Tweak
+      message: Shadowkins now take asphyxiation damage, albeit at half the
+    - type: Tweak
+      message: Shadowkins now have a more pronounced snout.
+    - type: Remove
+      message: Removed DarkSwap from Shadowkin roundstart
+    - type: Fix
+      message: Fixed the demons of Gehenna possessing the ChemMaster
+  id: 133
+  time: '2025-01-26T18:28:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/207
+- author: Rosycup
+  changes:
+    - type: Remove
+      message: >-
+        Removed Station Destruction nodes from artifacts and the Singularity
+        Beacon from the traitor uplink.
+  id: 134
+  time: '2025-01-27T10:55:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/208
+- author: EE contributors
+  changes:
+    - type: Add
+      message: Blueshield Officer now has CPR as a roundstart trait.
+    - type: Fix
+      message: Other species can pick Cataloguer, Psionic Mantis, and Mystagogue
+    - type: Tweak
+      message: All plasma tanks of all kinds now have the correct output
+    - type: Tweak
+      message: Plasmamen can no longer select the Temperature Tolerance trait
+    - type: Fix
+      message: Reduced the price of mechs on the uplink.
+    - type: Fix
+      message: Thief game rule now properly selects more than one thief.
+    - type: Remove
+      message: Remove the Raise Glimmer To 500 traitor objective.
+    - type: Add
+      message: >-
+        Added the AAC tablet to loadouts for 2 loadout points. Mimes can break
+        their vow by using it.
+    - type: Add
+      message: Ghost Bar! When you die, you can now go to the Ghost Bar to chill
+    - type: Add
+      message: Foam Force rifle to cargo lottery! (by IProduceWidgets)
+    - type: Add
+      message: 'Re-enabled the Kill objective for traitors. '
+    - type: Tweak
+      message: Reduced the chances of traitors getting the "Teach a Lesson"
+  id: 135
+  time: '2025-01-28T02:42:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/209
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Blueshield Officer's Rescue Axe, both a personal weapon and a
+        tool used for emergencies issued to Blueshields as part of their
+        equipment.
+  id: 136
+  time: '2025-01-28T10:51:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/210
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked nicotine addictions to degrade into a weaker mood debuff with
+        time spent not smoking. May your recovery be full of progress.
+  id: 137
+  time: '2025-01-31T06:32:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/213
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: >-
+        Added firelocks to baikal station (no more depressurizing the entire
+        station and popping everyone's heads
+    - type: Add
+      message: Added a few more fun rooms for people to find and explore!
+    - type: Add
+      message: Added some general fluff around the station! (trash mostly LOL)
+    - type: Tweak
+      message: >-
+        Tweaked epi's arti chambers, naming the buttons, and adding a way to
+        suck out gasses! (gotta rescue the CO2 can from the xeno lab now :3)
+  id: 138
+  time: '2025-01-31T09:54:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/214
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added names to faxes! (now you know where you're sending spam to)
+  id: 139
+  time: '2025-02-01T02:45:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/215
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added emergency Lights
+    - type: Add
+      message: Added more loot to maints
+    - type: Add
+      message: Added general fluff
+    - type: Remove
+      message: Removed herobrine for real this time
+  id: 140
+  time: '2025-02-01T20:11:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/218
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked tool belts to take more tools and mantis belts to be able to fit
+        certain epistemics tools.
+  id: 141
+  time: '2025-02-02T13:38:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/220
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: Three new mech footstep sounds
+    - type: Tweak
+      message: FootstepModifier components on goob's mechs
+  id: 142
+  time: '2025-02-02T17:41:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/221
