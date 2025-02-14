@@ -1911,3 +1911,178 @@ Entries:
   id: 149
   time: '2025-02-06T20:43:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/231
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Northway Map rotation pool.
+    - type: Tweak
+      message: Northway For EE.
+    - type: Remove
+      message: >-
+        The pirates plundered her FTL drive, and Northway's wings may be
+        clipped, but she is still flyable.
+  id: 150
+  time: '2025-02-08T13:12:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/234
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Robotics Airlock and some justice stuff
+  id: 151
+  time: '2025-02-09T02:09:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/236
+- author: Fox
+  changes:
+    - type: Add
+      message: Added CJ And Clerk To Pebble
+    - type: Tweak
+      message: Made adjustments and tweaks to pebble
+  id: 152
+  time: '2025-02-09T04:11:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/237
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Latent Psionic no longer effected by machine over mind
+  id: 153
+  time: '2025-02-09T04:13:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/238
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a toggle for the mood visual effects, for the ones with sensitive
+        eyes.
+  id: 154
+  time: '2025-02-09T04:58:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/239
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked handheld drills to take less stamina on wideswing, Exosuit
+        Drills are faster now as well.
+    - type: Fix
+      message: Fixed Shadowkins being unable to take powers on traits.
+    - type: Remove
+      message: Removed the Research Digiboard due to being non-functional.
+  id: 155
+  time: '2025-02-09T14:57:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/240
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Shoko has been adjusted slightly. Hope you like more dorms!
+  id: 156
+  time: '2025-02-10T00:02:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/241
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Holofans now make noise! They also start to let off a modulated warning
+        signal 15 seconds before they run out.
+    - type: Add
+      message: >-
+        Existing gloves, masks and neckwear added to the corpsman loadout. No
+        more drip trips to med/chem!
+    - type: Add
+      message: >-
+        Mind swap ability added to psi traits, costing 6 points. Be careful when
+        more than two people are involved.
+    - type: Tweak
+      message: Xenoglossy cost lowered. Go yap to some scugs!
+  id: 157
+  time: '2025-02-10T18:38:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/242
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Consent toggle added for Mind Swap. While this does mean you can no
+        longer use it for antag purposes, no one did that anyway and it is a
+        trait now.
+  id: 158
+  time: '2025-02-10T19:26:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/243
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Silly girl forgot shoko's Mat Silo, its there now
+    - type: Tweak
+      message: Shoko's arrivals shuttle should now dock properly
+  id: 159
+  time: '2025-02-11T08:16:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/244
+- author: Fox
+  changes:
+    - type: Add
+      message: Ports the DeltaV version of Asterisk, its back in space bitches!
+  id: 160
+  time: '2025-02-11T09:43:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/245
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a latex catsuit (and a shiny variant) into the uniform loadouts
+        selection. Make a fashion statement!
+    - type: Tweak
+      message: Mindswap trait cost lowered from 6 points to 3.
+  id: 161
+  time: '2025-02-11T15:50:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/248
+- author: Fox
+  changes:
+    - type: Fix
+      message: Probably made Asterisk work again, probably
+  id: 162
+  time: '2025-02-12T09:35:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/249
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed voice masks. For real this time, I forgot a single character.
+    - type: Fix
+      message: Hopefully fixed layering issues (floof port)
+  id: 163
+  time: '2025-02-12T16:24:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/253
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Lobby tracks "The Station," "Get It Done," and "Unknown Theory," by
+        A-Guy have been added.
+    - type: Add
+      message: >-
+        Nanotrasen has partnered with a couple extra brands to provide you with
+        more cigarette varieties! Happy smoking! (by KittenColony)
+  id: 164
+  time: '2025-02-12T18:38:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/251
+- author: Forzii
+  changes:
+    - type: Tweak
+      message: Logistics can now buy plushie crates
+  id: 165
+  time: '2025-02-12T18:38:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/252
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added underwear markings for Most of the species. Comfy underwear for
+        everyone!
+  id: 166
+  time: '2025-02-13T07:31:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/256
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Many things such as weapons, windows and food now have new interactions,
+        expect a lot of saliva on various objects from now on...
+  id: 167
+  time: '2025-02-13T07:31:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/255

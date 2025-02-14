@@ -542,6 +542,10 @@ trait-description-XenoglossyPower =
     Xenoglossy grants the ability to divine the underlying emotional meaning from the minds of other speakers,
     allowing its user to understand any spoken language as if it was the user's own native tongue.
 
+trait-name-MindSwapPower = Mind Swap
+trait-description-MindSwapPower =
+    Grants you the power to swap bodies with another as they take your own. Swapping bodies with a being already occupying a body that is not their own can result in unintended consequences.
+
 trait-name-PsychognomyPower = Psychognomist
 trait-description-PsychognomyPower =
     A special talent derived from Telepathy, Psychognomy is the ability to read the underlying imprint of telepathic messages.
@@ -572,5 +576,10 @@ trait-description-ThermographicVision =
     biological life forms. It can even detect individuals through the walls of a station.
 
 trait-name-ShadowkinBlackeye = Blackeye
-trait-description-ShadowkinBlackeye = 
+trait-description-ShadowkinBlackeye =
     You lose your special Shadowkin powers & respect amongst your peers, in return for some points. Effectively, you are only a Shadowkin in name, not in practice.
+
+trait-name-LyreBird = Lyre Bird
+trait-description-LyreBird =
+    Your natural talent for mimicry vastly exceeds that of other Harpies. You have the ability to perfectly imitate songs in their entirety.
+    Be your own full symphony orchestra, jazz group, or metal band.
