@@ -13,19 +13,3 @@
   - FullAutoConversionKit
   - HyperBurstConversionKit
 
-# Tier 2
-
-- type: technology
-  id: AdvancedPistolMunitions
-  name: research-technology-advanced-pistol-munitions
-  icon:
-    sprite: _Impstation/Objects/Weapons/Guns/Ammunition/Boxes/light_pistol.rsi
-    state: incendiarydisplay
-  discipline: Arsenal
-  tier: 2
-  cost: 12000
-  recipeUnlocks:
-  - MagazineLPistolIncendiary
-  - MagazineLPistolUranium
-  - MagazineBoxLPistolIncendiary
-  - MagazineBoxLPistolUranium

@@ -286,3 +286,7 @@
   - MagazineLPistolUranium # Imp
   - MagazineDMRIncendiary # Imp
   - MagazineDMRUranium # Imp
+  - WeaponBlasterPistol # Imp
+  - WeaponBlasterCannon # Imp
+  - WeaponBlasterMagnum # Imp
+  - PowerCellBlaster # Imp
