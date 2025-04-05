@@ -60,11 +60,21 @@
 # Ears
 
 # Equipment
+- type: loadout
+  id: LoadoutCrewMonitor
+  category: JobsSecurityCorpsman
+  cost: 6
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Brigmedic
+  items:
+    - HandheldCrewMonitor
 
 # Eyes
 - type: loadout
   id: LoadoutClothingEyesGlassesCorpsman
-  category: JobsSecurityAUncategorized
+  category: JobsSecurityCorpsman
   cost: 2
   exclusive: true
   requirements:
@@ -227,3 +237,16 @@
 # Shoes
 
 # Uniforms
+- type: loadout
+  id: LoadoutUniformJumpsuitCorpsmanSummer
+  category: JobsSecurityCorpsman
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCorpsmanUniform
+    - !type:CharacterJobRequirement
+      jobs:
+        - Brigmedic
+  items:
+    - ClothingUniformJumpsuitCorpsmanSummer

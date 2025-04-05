@@ -67,9 +67,9 @@
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
-        - Rootspeak
+        - RootSpeak
       languagesUnderstood:
-        - Rootspeak
+        - RootSpeak
 
 - type: trait
   id: Moffic
@@ -182,3 +182,39 @@
         - Mouse
       languagesUnderstood:
         - Mouse
+
+- type: trait
+  id: Nehina
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Feroxi
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Nehina
+      languagesUnderstood:
+        - Nehina
+
+- type: trait
+  id: Alaseta
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+      - Canid
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Alaseta
+      languagesUnderstood:
+        - Alaseta

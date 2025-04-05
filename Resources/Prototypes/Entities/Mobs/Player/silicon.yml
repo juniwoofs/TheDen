@@ -14,11 +14,23 @@
     - Medical
     - Science
     - Security
+    - Prison
     - Service
     - Supply
+    - Justice
   - type: ActiveRadio
-    receiveAllChannels: true
-    globalReceive: true
+    channels:
+    - Binary
+    - Common
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Prison
+    - Service
+    - Supply
+    - Justice
   - type: IgnoreUIRange
   - type: StationAiHeld
   - type: StationAiOverlay
@@ -451,6 +463,7 @@
   - type: SiliconLawProvider
     laws: AntimovLawset
     lawUploadSound: /Audio/Ambience/Antag/silicon_lawboard_antimov.ogg
+    unRemovable: true
 
 - type: entity
   id: NutimovCircuitBoard
@@ -502,6 +515,7 @@
   - AiHolder
   suffix: Empty
   components:
+  - type: IonStormTarget
   - type: WarpPoint
   - type: ContainerComp
     proto: AiHeld
@@ -605,7 +619,7 @@
   - type: BlockMovement
     blockInteraction: false
   - type: SiliconLawProvider
-    laws: Asimov
+    laws: AsimovAI
   - type: SiliconLawBound
   - type: ActionGrant
     actions:
@@ -619,6 +633,7 @@
   - type: Access
     groups:
     - AllAccess
+    - Silicon
   - type: Eye
     drawFov: false
   - type: Examiner
@@ -648,6 +663,9 @@
     - Elyran
     - RobotTalk
     - Sign # It's intentional that they don't "Speak" sign language.
+  - type: StartingMindRole
+    mindRole: "MindRoleSiliconBrain"
+    silent: true
 
 # Hologram projection that the AI's eye tracks.
 - type: entity
@@ -677,6 +695,7 @@
     speaks:
     - TauCetiBasic
     - SolCommon
+    - NovuNederic
     - Tradeband
     - Freespeak
     - Elyran
@@ -684,6 +703,7 @@
     understands:
     - TauCetiBasic
     - SolCommon
+    - NovuNederic
     - Tradeband
     - Freespeak
     - Elyran
@@ -714,35 +734,15 @@
 
 # Borgs
 - type: entity
-  id: PlayerBorgGeneric
-  parent: BorgChassisGeneric
-  suffix: Battery, Tools
-  components:
-  - type: StationAiVision
-  - type: ContainerFill
-    containers:
-      borg_brain:
-        - PositronicBrain
-      borg_module:
-        - BorgModuleTool
-  - type: ItemSlots
-    slots:
-      cell_slot:
-        name: power-cell-slot-component-slot-name-default
-        startingItem: PowerCellMedium
-  - type: RandomMetadata
-    nameSegments: [names_borg]
-
-- type: entity
   id: PlayerBorgBattery
-  parent: BorgChassisGeneric
+  parent: BorgChassisSelectable
   suffix: Battery
   components:
   - type: StationAiVision
   - type: ContainerFill
     containers:
       borg_brain:
-        - MMIFilled
+        - PositronicBrain
   - type: ItemSlots
     slots:
       cell_slot:

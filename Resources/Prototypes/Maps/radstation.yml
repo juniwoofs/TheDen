@@ -1,11 +1,11 @@
 - type: gameMap
   id: Rad
   mapName: 'RadStation'
-  mapPath: /Maps/radstation.yml
+  mapPath: /Maps/TheDen/radstation.yml
   minPlayers: 15
   stations:
     RadStation:
-      stationProto: StandardNanotrasenStation
+      stationProto: StandardNanotrasenStationCargoOnly
       components:
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_neol.yml

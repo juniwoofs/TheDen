@@ -28,6 +28,7 @@
   - ExosuitFabricatorMachineCircuitboard
   - BorgModuleArtifact
   - BorgModuleAnomaly
+  - DroneElectronics
 
 - type: technology
   id: BasicElectronics
@@ -54,6 +55,7 @@
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
   - BiomassReclaimerMachineCircuitboard
+  - AdvancedMicrowaveMachineCircuitBoard # DeltaV
 
 # TODO: Add recipes to manufacture Vacsuits.
 # - type: technology

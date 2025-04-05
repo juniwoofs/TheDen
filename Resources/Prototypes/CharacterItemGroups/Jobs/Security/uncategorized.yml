@@ -139,6 +139,10 @@
       id: LoadoutBSOEnergyRevolver
     - type: loadout
       id: LoadoutBSORifleChester
+    - type: loadout
+      id: LoadoutBSOMace
+    - type: loadout
+      id: LoadoutBSOAxe
 
 - type: characterItemGroup
   id: LoadoutSecurityEyes
@@ -201,6 +205,8 @@
       id: LoadoutSecurityMaskGasSwat
     - type: loadout
       id: LoadoutSecurityMaskGasCombat
+    - type: loadout
+      id: LoadoutSecurityMaskGasBallistic
 
 - type: characterItemGroup
   id: LoadoutSecurityOuter
@@ -248,3 +254,7 @@
       id: LoadoutSecurityUniformEnvirosuitBlue
     - type: loadout
       id: LoadoutSecurityUniformEnvirosuitGrey
+    - type: loadout
+      id: LoadoutSecurityUniformJumpsuit
+    - type: loadout
+      id: LoadoutSecurityUniformJumpskirt

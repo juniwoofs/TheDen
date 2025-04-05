@@ -21,8 +21,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponPulsePistolHoS
 
@@ -37,8 +35,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponSubMachineGunWt550HoS
 
@@ -67,8 +63,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponSubMachineGunC20rHoS
 
@@ -83,8 +77,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponShotgunBulldogHoS
 
@@ -113,10 +105,22 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponEnergyGunMultiphase
+
+- type: loadout
+  id: LoadoutCommandHoSBRDIR25
+  category: JobsSecurityHeadOfSecurity
+  cost: 7 # Cracked
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityWeapon
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfSecurity
+  items:
+    - WeaponSubMachineGunBRDIR25HoS
 
 # Eyes
 
@@ -237,6 +241,19 @@
         - HeadOfSecurity
   items:
     - ClothingOuterCoatHoSTrench
+
+- type: loadout
+  id: LoadoutCommandHOSOuterArmorHosSamurai
+  category: JobsSecurityHeadOfSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfSecurity
+  items:
+    - ClothingOuterArmorHosSamurai
 
 # Shoes
 - type: loadout

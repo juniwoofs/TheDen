@@ -17,8 +17,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Bartender
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - BoxBeanbag
 
@@ -33,10 +31,22 @@
     - !type:CharacterJobRequirement
       jobs:
         - Bartender
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - MagazineBoxLightRifleRubber
+
+- type: loadout
+  id: LoadoutServiceBartenderBoxRifleRubber
+  category: JobsServiceBartender
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderAmmo
+    - !type:CharacterJobRequirement
+      jobs:
+        - Bartender
+  items:
+    - MagazineBoxRifleRubber
 
 - type: loadout
   id: LoadoutServiceBartenderShotgunDoubleBarreledRubber
@@ -49,8 +59,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Bartender
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponShotgunDoubleBarreledRubber
 
@@ -65,8 +73,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Bartender
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponSniperMosinRubber
 

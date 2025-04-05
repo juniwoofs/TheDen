@@ -20,19 +20,12 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
+  accessGroups:
+  - BasicAllAccess
   access:
-  - Security
-  - Brig
-  - External
-  - Cryogenics
-  - Maintenance
-  - Engineering
-  - Medical
-  - Research
-  - Cargo
-  - Command
-  - CentralCommand
   - BlueshieldOfficer
+  - CentralCommand
+  - Corpsman
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -58,6 +51,7 @@
     gloves: ClothingHandsGlovesCombat
     id: BlueshieldPDA
     pocket1: UniqueBlueshieldOfficerLockerTeleporter
+    pocket2: BluespaceLifelineImplanter
 
     #outerClothing: ClothingBlueshieldArmourVest
     #ears: ClothingHeadsetAltCommand
