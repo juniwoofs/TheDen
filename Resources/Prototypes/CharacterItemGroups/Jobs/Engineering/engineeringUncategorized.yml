@@ -26,7 +26,7 @@
 #  items:
 #
 - type: characterItemGroup
-  id: LoadoutEyesEngineering
+  id: LoadoutEngineeringEyes
   items:
     - type: loadout
       id: LoadoutEngineeringEyesMeson
@@ -95,3 +95,7 @@
       id: LoadoutEngineeringUniformSkirt
     - type: loadout
       id: LoadoutEngineeringUniformHazard
+    - type: loadout
+      id: LoadoutClothingUniformJumpsuitRepairmanNT
+    - type: loadout
+      id: LoadoutClothingUniformJumpsuitRepairmanCybersun

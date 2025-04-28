@@ -30,19 +30,28 @@
       points: 1
       required: false
     Chest:
+      points: 6
+      required: false
+    Genitals:
+      points: 1
+      required: false
+    Nipples:
+      points: 2
+      required: false
+    Undershirt:
       points: 1
       required: false
     RightArm:
-      points: 2
+      points: 6
       required: false
     RightHand:
-      points: 3
+      points: 6
       required: false
     LeftArm:
-      points: 2
+      points: 6
       required: false
     LeftHand:
-      points: 3
+      points: 6
       required: false
 
 
@@ -56,6 +65,7 @@
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Chest: MobHumanTorso
+    Undershirt: MobHumanoidAnyMarking
     Eyes: MobArachneEyes
     LArm: MobHumanLArm
     RArm: MobHumanRArm

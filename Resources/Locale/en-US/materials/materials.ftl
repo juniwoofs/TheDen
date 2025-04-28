@@ -3,6 +3,8 @@ materials-glass = glass
 materials-reinforced-glass = reinforced glass
 materials-plasma-glass = plasma glass
 materials-reinforced-plasma-glass = reinforced plasma glass
+materials-uranium-glass = uranium glass
+materials-reinforced-uranium-glass = reinforced uranium glass
 
 # Metals
 materials-steel = steel
@@ -33,6 +35,7 @@ materials-diamond = diamond
 materials-gunpowder = gunpowder
 materials-bluespace = bluespace
 materials-normality = normality
+materials-circuitry = circuitry
 
 # Ores
 materials-raw-iron = raw iron
@@ -43,6 +46,7 @@ materials-raw-plasma = raw plasma
 materials-raw-uranium = raw uranium
 materials-raw-bananium = raw bananium
 materials-raw-salt = raw salt
+materials-raw-diamond = raw diamond
 materials-raw-bluespace = raw bluespace
 materials-raw-normality = raw normality
 materials-raw-aluminium = raw aluminium

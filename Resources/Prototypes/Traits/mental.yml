@@ -39,12 +39,12 @@
     - !type:TraitReplaceComponent
       components:
         - type: PotentiaModifier
-          potentiaMultiplier: 1.25
+          potentiaMultiplier: 1.5
 
 - type: trait
   id: LowPotential
   category: Mental
-  points: 4
+  points: 5
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
@@ -82,7 +82,7 @@
     - !type:TraitReplaceComponent
       components:
         - type: PotentiaModifier
-          potentiaMultiplier: 0.75
+          potentiaMultiplier: 0.5
 
 - type: trait
   id: LowAmplification
@@ -264,10 +264,13 @@
 - type: trait
   id: DispelPower
   category: Mental
-  points: -6
+  points: -4
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - Shadowkin # Innate Psionics
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
@@ -285,6 +288,10 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - ShadowkinBlackeye
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
@@ -297,10 +304,13 @@
 - type: trait
   id: MetapsionicPower
   category: Mental
-  points: -4
+  points: -2
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - Shadowkin # Innate Psionics
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
@@ -317,6 +327,10 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - ShadowkinBlackeye
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
@@ -330,10 +344,18 @@
 - type: trait
   id: XenoglossyPower
   category: Mental
-  points: -10
+  points: -7
   requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
     - !type:CharacterLogicOrRequirement
       requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - Shadowkin # Innate Psionics
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
@@ -352,6 +374,10 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - ShadowkinBlackeye
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
@@ -362,12 +388,55 @@
         - XenoglossyPower
 
 - type: trait
-  id: PsychognomyPower
+  id: MindSwapPower
   category: Mental
   points: -3
   requirements:
     - !type:CharacterLogicOrRequirement
       requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - Shadowkin # Innate Psionics
+        - !type:CharacterTraitRequirement
+          traits:
+            - LatentPsychic
+        - !type:CharacterJobRequirement
+          jobs:
+            - Chaplain
+            - ResearchDirector
+            - ForensicMantis
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - AnomalousPositronics
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - ShadowkinBlackeye
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - MindSwapPower
+
+- type: trait
+  id: PsychognomyPower
+  category: Mental
+  points: -1
+  requirements:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - Shadowkin # Innate Psionics
         - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
@@ -387,7 +456,51 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - ShadowkinBlackeye
   functions:
     - !type:TraitAddPsionics
       psionicPowers:
         - PsychognomyPower
+
+- type: trait
+  id: HealingWordPower
+  category: Mental
+  points: -6
+  requirements:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - Shadowkin # Innate Psionics
+        - !type:CharacterTraitRequirement
+          traits:
+            - LatentPsychic
+        - !type:CharacterJobRequirement
+          jobs:
+            - Librarian
+            - ForensicMantis
+            - ResearchDirector
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - AnomalousPositronics
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - ShadowkinBlackeye
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - HealingWordPower

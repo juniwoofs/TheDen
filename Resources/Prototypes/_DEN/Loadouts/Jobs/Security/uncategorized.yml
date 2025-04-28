@@ -53,3 +53,45 @@
         - Security
   items:
     - ClothingMaskGasSecurityCombat
+
+- type: loadout
+  id: LoadoutSecurityMaskGasBallistic
+  category: JobsSecurityAUncategorized
+  cost: 2 # Slightly tougher than the normal security mask
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityMask
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingMaskGasSecurityBallistic
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpsuit
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingUniformJumpsuitSec
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpskirt
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingUniformJumpskirtSec

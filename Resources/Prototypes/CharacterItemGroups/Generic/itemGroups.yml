@@ -429,3 +429,11 @@
       id: LoadoutUniformEnvirosuitEnviroslacksMNK
     - type: loadout
       id: LoadoutUniformEnvirosuitEnviroslacksMNKAlt
+    - type: loadout
+      id: LoadoutUniformColorRainbow
+    - type: loadout
+      id: ClothingUniformJumpskirtTacticool
+    - type: loadout
+      id: ClothingUniformJumpskirtTacticalMaid
+    - type: loadout
+      id: ClothingUniformJumpsuitTacticool

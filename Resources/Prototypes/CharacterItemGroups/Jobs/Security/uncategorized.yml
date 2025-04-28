@@ -66,6 +66,10 @@
       id: LoadoutSpeedLoaderRifleHeavyRubber
     - type: loadout
       id: LoadoutSpeedLoaderRifleHeavyRubberSpare
+    - type: loadout
+      id: LoadoutMagazineMagnumMagnumLeverRifle
+    - type: loadout
+      id: LoadoutMagazineMagnumMagnumLeverRifleSpare
 
 - type: characterItemGroup
   maxItems: 1
@@ -131,10 +135,6 @@
       id: LoadoutSecurityArgentiNonLethal
     - type: loadout
       id: LoadoutSecurityPistolEnergyRevolver
-    - type: loadout
-      id: LoadoutBSOEnergyRevolver
-    - type: loadout
-      id: LoadoutBSORifleChester
 
 - type: characterItemGroup
   id: LoadoutSecurityEyes
@@ -197,6 +197,8 @@
       id: LoadoutSecurityMaskGasSwat
     - type: loadout
       id: LoadoutSecurityMaskGasCombat
+    - type: loadout
+      id: LoadoutSecurityMaskGasBallistic
 
 - type: characterItemGroup
   id: LoadoutSecurityOuter
@@ -244,3 +246,7 @@
       id: LoadoutSecurityUniformEnvirosuitBlue
     - type: loadout
       id: LoadoutSecurityUniformEnvirosuitGrey
+    - type: loadout
+      id: LoadoutSecurityUniformJumpsuit
+    - type: loadout
+      id: LoadoutSecurityUniformJumpskirt

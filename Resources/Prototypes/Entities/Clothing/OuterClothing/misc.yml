@@ -139,6 +139,8 @@
     sprite: Clothing/OuterClothing/Misc/chaplain_hoodie.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodChaplainHood
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterBase
@@ -152,6 +154,8 @@
     sprite: Clothing/OuterClothing/Misc/classicponcho.rsi
   - type: AddAccentClothing
     accent: SpanishAccent
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterBase
@@ -187,6 +191,8 @@
     sprite: Clothing/OuterClothing/Misc/poncho.rsi
   - type: AddAccentClothing
     accent: SpanishAccent
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterBase
@@ -198,6 +204,8 @@
     sprite: Clothing/OuterClothing/Misc/santa.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/santa.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   abstract: true
@@ -487,6 +495,8 @@
     sprite: Clothing/OuterClothing/Misc/cardigan_sweater.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/cardigan_sweater.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterCardiganSweater]
@@ -526,7 +536,7 @@
   name: slim cardigan
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: ClothingOuterStorageBase
   id: ClothingOuterCowboyDuster
   name: cowboy duster
   description: A duster commonly seen on cowboys from Earth's late 1800's.
@@ -562,6 +572,8 @@
     sprite: Clothing/OuterClothing/Misc/blazer_long.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/blazer_long.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterBlazerLong]
@@ -569,7 +581,7 @@
   name: long blazer
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: ClothingOuterStorageBase
   id: ClothingOuterBlazerFormal
   name: formal blazer
   description: A slim-fit blazer suitable for both smart casual and formal outfits.
@@ -580,7 +592,7 @@
     sprite: Clothing/OuterClothing/Misc/blazer_formal.rsi
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: ClothingOuterStorageBase
   id: ClothingOuterBlazerLooseSleeve
   name: loose sleeve blazer
   description: One of those hippie-formal wannabe blazers.
@@ -591,7 +603,7 @@
     sprite: Clothing/OuterClothing/Misc/blazer_loose_sleeve.rsi
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: ClothingOuterStorageBase
   id: ClothingOuterBlazerFlatCollar
   name: flat collar blazer
   description: For those grown ups that didn't wanna.
@@ -602,7 +614,7 @@
     sprite: Clothing/OuterClothing/Misc/blazer_flat_collar.rsi
 
 - type: entity
-  parent: ClothingOuterBase
+  parent: ClothingOuterStorageBase
   id: ClothingOuterBlazerPosh
   name: posh blazer
   description: This is a bit fancy, like the new service worker in Saltern who is trying too hard to impress the heads.

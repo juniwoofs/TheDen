@@ -109,6 +109,8 @@
     sprite: DeltaV/Clothing/OuterClothing/Coats/hos_trenchcoat.rsi # DeltaV - resprite
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Coats/hos_trenchcoat.rsi # DeltaV - resprite
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -120,6 +122,8 @@
     sprite: Clothing/OuterClothing/Coats/insp_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/insp_coat.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterStorageToggleableBase
@@ -161,7 +165,7 @@
           Quantity: 20
 
 - type: entity
-  parent: ClothingOuterStorageFoldableBase
+  parent: ClothingOuterStorageFoldableBase # While we have the sprite, unable to be folded.
   id: ClothingOuterCoatLab
   name: lab coat
   description: A suit that protects against minor chemical spills.
@@ -263,7 +267,7 @@
   name: chief medical officer's lab coat
 
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: [ ClothingOuterStorageBase, ClothingUniformFoldableBase ]
   id: ClothingOuterCoatRnd
   name: epistemics lab coat # DeltaV - Epistemics Department replacing Science
   description: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
@@ -283,7 +287,7 @@
   name: scientist lab coat
 
 - type: entity
-  parent: ClothingOuterStorageFoldableBase
+  parent: ClothingOuterStorageFoldableBase # While we have the sprite, unable to be folded.
   id: ClothingOuterCoatRobo
   name: roboticist lab coat
   description: More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads.
@@ -344,6 +348,8 @@
     sprite: Clothing/OuterClothing/Coats/warden.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/warden.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -405,6 +411,8 @@
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterCoatHoSTrench
@@ -476,6 +484,8 @@
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -487,6 +497,8 @@
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: ClothingOuterBase
@@ -542,6 +554,8 @@
     sprite: Clothing/OuterClothing/Coats/peacoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/peacoat.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterCoatPeacoat]
@@ -574,6 +588,8 @@
     sprite: Clothing/OuterClothing/Coats/submariner.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/submariner.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
 
 - type: entity
   parent: [ClothingOuterFoldableBaseOpened, ClothingOuterCoatSubmariner]

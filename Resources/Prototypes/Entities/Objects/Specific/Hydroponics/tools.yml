@@ -39,6 +39,7 @@
   - type: Tag
     tags:
     - PlantSampleTaker
+    - HydroponicsToolClippers
   - type: Sprite
     sprite: Objects/Tools/Hydroponics/clippers.rsi
     state: icon
@@ -130,6 +131,7 @@
         Slash: 10
     heavyDamageBaseModifier: 1.2
     heavyStaminaCost: 5
+    maxTargets: 3
   - type: DamageOtherOnHit
     meleeDamageMultiplier: 1.5
     staminaCost: 6.5
@@ -167,6 +169,7 @@
     heavyRangeModifier: 1.25
     heavyDamageBaseModifier: 1.2
     heavyStaminaCost: 5
+    maxTargets: 2
     angle: 80
     soundHit:
       collection: MetalThud

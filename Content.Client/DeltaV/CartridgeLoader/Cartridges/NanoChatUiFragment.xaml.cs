@@ -85,6 +85,23 @@ public sealed partial class NanoChatUiFragment : BoxContainer
             }
         };
 
+        LookupButton.OnPressed += _ => ToggleView();
+        LookupView.OnStartChat += contact =>
+        {
+            if (ActionSendUiMessage is { } handler)
+            {
+                handler(NanoChatUiMessageType.NewChat, contact.Number, contact.Name, contact.JobTitle);
+                SelectChat(contact.Number);
+                ToggleView();
+            }
+        };
+        ListNumberButton.OnPressed += _ =>
+        {
+            _listNumber = !_listNumber;
+            UpdateListNumber();
+            ActionSendUiMessage?.Invoke(NanoChatUiMessageType.ToggleListNumber, null, null, null);
+        };
+
         MessageInput.OnTextEntered += _ => SendMessage();
         LookupButton.OnPressed += _ => ToggleView();
         LookupView.OnStartChat += contact =>
@@ -170,6 +187,9 @@ public sealed partial class NanoChatUiFragment : BoxContainer
             _recipients[number] = recipient;
             UpdateChatList(_recipients);
         }
+
+        if (MessageList.Parent is ScrollContainer scroll)
+            scroll.SetScrollValue(new Vector2(0, float.MaxValue));
 
         ActionSendUiMessage?.Invoke(NanoChatUiMessageType.SelectChat, number, null, null);
         UpdateCurrentChat();
