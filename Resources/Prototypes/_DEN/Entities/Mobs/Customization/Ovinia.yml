@@ -7,7 +7,7 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/ear_markings.rsi
     state: ovinia-ears
-  - sprite: _DV/Mobs/Customization/Feroxi/ear_markings.rsi
+  - sprite: _DV/Mobs/Customization/Ovinia/ear_markings.rsi
     state: ovinia-ears-inner
 
 - type: marking
@@ -23,10 +23,10 @@
   id: FeroxiSnout
   bodyPart: Snout
   markingCategory: Snout
-  speciesRestriction: [ Feroxi ]
+  speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _DV/Mobs/Customization/Feroxi/snout_markings.rsi
-    state: feroxi-snout
+  - sprite: _DV/Mobs/Customization/Ovinia/snout_markings.rsi
+    state: Ovinia-snout
 
 # Ears Markings
 - type: marking
