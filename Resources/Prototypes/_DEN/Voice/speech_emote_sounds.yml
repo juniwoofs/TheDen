@@ -111,8 +111,8 @@
       collection: Whistles
     Weh:
       collection: Weh
-    OviniaBaa:
-      collection: OviniaBaas
+    Baa:
+      collection: OviniaBaa
 
 - type: emoteSounds
   id: FemaleOvinia
@@ -141,5 +141,5 @@
       collection: Whistles
     Weh:
       collection: Weh
-    OviniaBaa:
-      collection: OviniaBaas
+    Baa:
+      collection: OviniaBaa
