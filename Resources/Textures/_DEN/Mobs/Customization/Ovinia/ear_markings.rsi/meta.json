@@ -7,13 +7,13 @@
         "y": 32
     },
     "states": [
-    {
-        "name": "ovinia-ears",
-        "directions": 4
-    },
-    {
-        "name": "ovinia-ears-inner",
-        "directions": 4
-    }
-]
+        {
+            "name": "ovinia-ears",
+            "directions": 4
+        },
+        {
+            "name": "ovinia-ears-inner",
+            "directions": 4
+        }
+    ]
 }
