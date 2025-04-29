@@ -1,6 +1,6 @@
 ﻿- type: body
-  id: species-name-ovinia
-  name: Ovinia
+  id: Ovinia
+  name: ovinia
   root: torso
   slots:
     head:
