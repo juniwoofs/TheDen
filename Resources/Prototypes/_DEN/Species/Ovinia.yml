@@ -12,7 +12,6 @@
   femaleFirstNames: names_first_female
   lastNames: names_last
   minHeight: 0.5
-  minHeight: 0.7
   defaultHeight: 0.9
   maxHeight: 1.175
   minWidth: 0.65
