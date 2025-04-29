@@ -16,3 +16,22 @@
   chatTriggers:
     - moos
     - moo
+
+- type: emote
+  id: OviniaBaa
+  name: chat-emote-name-oviniabaa
+  category: Vocal
+  icon: Interface/Emotes/caw.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+    - OviniaEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ baas ]
+  chatTriggers:
+    - baas
+    - baa
+    - baahs
+    - baah
