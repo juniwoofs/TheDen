@@ -7,7 +7,7 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/ear_markings.rsi
     state: ovinia-ears
-  - sprite: _DV/Mobs/Customization/Ovinia/ear_markings.rsi
+  - sprite: _DEN/Mobs/Customization/Ovinia/ear_markings.rsi
     state: ovinia-ears-inner
 
 - type: marking
