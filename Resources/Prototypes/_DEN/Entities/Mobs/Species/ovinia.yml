@@ -28,6 +28,7 @@
   - type: Speech
     speechSounds: Ovinia
     speechVerb: Ovinia
+    allowedEmotes: ["OviniaBaas"]
   - type: Stamina
     critThreshold: 90
     decay: 2.7 # 3 base decay multiplied by 0.9 = 2.7
@@ -55,6 +56,8 @@
     - FootstepSound
     - DoorBumpOpener
     - OviniaEmotes
+  - type: TypingIndicator
+    proto: ovinia
 
 - type: entity
   save: false

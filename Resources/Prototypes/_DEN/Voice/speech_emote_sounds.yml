@@ -1,4 +1,4 @@
-# species
+# Canid
 - type: emoteSounds
   id: MaleCanid
   params:
@@ -83,6 +83,7 @@
     Awoo:
       collection: VulpkaninHowls
 
+# Ovinia
 - type: emoteSounds
   id: MaleOvinia
   params:
