@@ -12,11 +12,12 @@
   femaleFirstNames: names_first_female
   lastNames: names_last
   minHeight: 0.5
-  defaultHeight: 0.7
+  minHeight: 0.7
+  defaultHeight: 0.9
   maxHeight: 1.175
-  minWidth: 0.45
-  defaultWidth: 0.7
-  maxWidth: 1.5
+  minWidth: 0.65
+  defaultWidth: 0.9
+  maxWidth: 1.225
   customName: true
 
 - type: markingPoints
