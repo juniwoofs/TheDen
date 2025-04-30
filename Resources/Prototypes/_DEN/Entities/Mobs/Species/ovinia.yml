@@ -73,9 +73,9 @@
             parameterUV: displacementUV
       shoes:
         layer:
-            sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: shoes
-            copyToShaderParameters:
+          sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
+          state: shoes
+          copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
             layerKey: dummy
             parameterTexture: displacementMap
@@ -106,9 +106,9 @@
             parameterUV: displacementUV
       shoes:
         layer:
-            sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: shoes
-            copyToShaderParameters:
+          sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
+          state: shoes
+          copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
             layerKey: dummy
             parameterTexture: displacementMap
