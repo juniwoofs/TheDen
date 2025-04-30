@@ -60,7 +60,7 @@
     proto: ovinia
   - type: Inventory
     speciesId: ovinia
-    templateId: digitigradeovinia
+    templateId: human
     displacements:
       jumpsuit:
         layer:
@@ -72,8 +72,7 @@
             parameterTexture: displacementMap
             parameterUV: displacementUV
       shoes:
-        sizeMaps:
-          32:
+        layer:
             sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
             state: shoes
             copyToShaderParameters:
@@ -94,7 +93,7 @@
     species: Ovinia
   - type: Inventory
     speciesId: ovinia
-    templateId: digitigradeovinia
+    templateId: human
     displacements:
       jumpsuit:
         layer:
@@ -106,8 +105,7 @@
             parameterTexture: displacementMap
             parameterUV: displacementUV
       shoes:
-        sizeMaps:
-          32:
+        layer:
             sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
             state: shoes
             copyToShaderParameters:
