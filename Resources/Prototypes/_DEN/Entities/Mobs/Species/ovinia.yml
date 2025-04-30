@@ -70,17 +70,6 @@
             layerKey: dummy
             parameterTexture: displacementMap
             parameterUV: displacementUV
-    femaleDisplacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: jumpsuit-female
-            copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
       shoes:
         sizeMaps:
           32:
@@ -91,28 +80,6 @@
             layerKey: dummy
             parameterTexture: displacementMap
             parameterUV: displacementUV
-    displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: jumpsuit
-            copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
-      shoes:
-        sizeMaps:
-          32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: shoes
-            copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
-
 
 - type: entity
   save: false
@@ -133,38 +100,6 @@
           sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
           state: jumpsuit
           copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
-    femaleDisplacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: jumpsuit-female
-            copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
-      shoes:
-        sizeMaps:
-          32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: shoes
-            copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
-    displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
-            state: jumpsuit
-            copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
             layerKey: dummy
             parameterTexture: displacementMap
