@@ -19,17 +19,6 @@
   - sprite: _DEN/Mobs/Customization/Ovinia/tail_markings.rsi
     state: ovinia-tail
 
-- type: marking
-  id: OviniaSnout
-  bodyPart: Snout
-  markingCategory: Snout
-  speciesRestriction: [ Ovinia ]
-  sprites:
-  - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
-    state: ovinia-snout
-  - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
-    state: ovinia-nose
-
 # Ears Markings
 
 # Horns Markings
@@ -51,6 +40,17 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
     state: ovinia-face
+  - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
+    state: ovinia-nose
+
+- type: marking
+  id: OviniaSnout
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ Ovinia ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
+    state: ovinia-snout
   - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
     state: ovinia-nose
 
