@@ -60,10 +60,11 @@
     proto: ovinia
   - type: Inventory
     speciesId: ovinia
+    templateId: digitigradeovinia
     displacements:
       jumpsuit:
         layer:
-          sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
+          sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
           state: jumpsuit
           copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
@@ -73,7 +74,7 @@
       shoes:
         sizeMaps:
           32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
             state: shoes
             copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
@@ -91,13 +92,13 @@
   components:
   - type: HumanoidAppearance
     species: Ovinia
-
   - type: Inventory
     speciesId: ovinia
+    templateId: digitigradeovinia
     displacements:
       jumpsuit:
         layer:
-          sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
+          sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
           state: jumpsuit
           copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
@@ -107,7 +108,7 @@
       shoes:
         sizeMaps:
           32:
-            sprite: Resources/Textures/_DEN/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
             state: shoes
             copyToShaderParameters:
             # Value required, provide a dummy. Gets overridden when applied.
