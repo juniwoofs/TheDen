@@ -80,6 +80,8 @@
             layerKey: dummy
             parameterTexture: displacementMap
             parameterUV: displacementUV
+  - type: Flammable
+    fireStackIncreaseMultiplier: 1.25
 
 - type: entity
   save: false
