@@ -81,7 +81,9 @@
             parameterTexture: displacementMap
             parameterUV: displacementUV
   - type: Flammable
-    fireStackIncreaseMultiplier: 1.25
+    fireStackIncreaseMultiplier: .75
+  - type: Hunger
+    baseDecayRate: 0.0125 #25% slower than normal (chewin they cud)
 
 - type: entity
   save: false
@@ -115,3 +117,7 @@
             layerKey: dummy
             parameterTexture: displacementMap
             parameterUV: displacementUV
+  - type: Flammable
+    fireStackIncreaseMultiplier: .75
+  - type: Hunger
+    baseDecayRate: 0.0125 #25% slower than normal (chewin they cud)
