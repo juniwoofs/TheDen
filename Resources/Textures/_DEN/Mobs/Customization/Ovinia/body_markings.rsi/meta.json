@@ -10,6 +10,22 @@
         {
             "name": "ovinia-tummy",
             "directions": 4
+        },
+        {
+            "name": "ovinia-arm-valais-left",
+            "directions": 4
+        },
+        {
+            "name": "ovinia-arm-valais-right",
+            "directions": 4
+        },
+        {
+            "name": "ovinia-leg-valais-left",
+            "directions": 4
+        },
+        {
+            "name": "ovinia-leg-valais-right",
+            "directions": 4
         }
     ]
 }
