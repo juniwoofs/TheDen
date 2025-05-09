@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McSheepy
-  parent: BaseMobHuman
+  parent: BaseMobSpeciesOrganic
   id: MobOviniaBase
   abstract: true
   components:
