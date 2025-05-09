@@ -15,7 +15,7 @@
         shape:
           !type:PhysShapeCircle
           radius: 0.315
-        density: 162.5
+        density: 180.5 # sheep be heavy
         restitution: 0.0
         mask:
         - MobMask
@@ -81,9 +81,13 @@
             parameterTexture: displacementMap
             parameterUV: displacementUV
   - type: Flammable
-    fireStackIncreaseMultiplier: .75
+    fireStackIncreaseMultiplier: .75 #wool isnt flammible
   - type: Hunger
     baseDecayRate: 0.0125 #25% slower than normal (chewin they cud)
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+    - AnimalFriend
 
 - type: entity
   save: false
@@ -121,3 +125,7 @@
     fireStackIncreaseMultiplier: .75
   - type: Hunger
     baseDecayRate: 0.0125 #25% slower than normal (chewin they cud)
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+    - AnimalFriend
