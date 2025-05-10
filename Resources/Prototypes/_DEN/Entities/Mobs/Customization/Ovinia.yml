@@ -24,8 +24,8 @@
 # Head Markings
 - type: marking
   id: OviniaNeckfluff
-  bodyPart: HeadSide
-  markingCategory: HeadSide
+  bodyPart: NeckFluff
+  markingCategory: NeckFluff
   speciesRestriction: [ Ovinia ]
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/head_markings.rsi
