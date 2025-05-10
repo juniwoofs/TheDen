@@ -21,6 +21,16 @@
 
 # Ears Markings
 
+# Head Markings
+- type: marking
+  id: OviniaNeckfluff
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Ovinia ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Ovinia/head_markings.rsi
+    state: ovinia-neck-fluff
+
 # Horns Markings
 - type: marking
   id: OviniaLambHorns
@@ -30,6 +40,15 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: lamb-horns
+
+- type: marking
+  id: OviniaRamHorns
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Ovinia ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
+    state: ram-horns
 
 # Snout Markings
 - type: marking
@@ -84,6 +103,25 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-leg-valais-right
+
+#Foot Markings
+- type: marking
+  id: OviniaLeftHoof
+  bodyPart: LFoot
+  markingCategory: LeftFoot
+  speciesRestriction: [ Ovinia ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Ovinia/feet_markings.rsi
+    state: ovinia-hoof-left
+
+- type: marking
+  id: OviniaRightHoof
+  bodyPart: RFoot
+  markingCategory: RightFoot
+  speciesRestriction: [ Ovinia ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Ovinia/feet_markings.rsi
+    state: ovinia-hoof-right
 
 # Arm Markings
 - type: marking
