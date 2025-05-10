@@ -23,14 +23,15 @@
   id: MobOviniaSprites
   sprites:
     Head: MobOviniaHead
-    Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Underwear: MobHumanoidAnyMarking
     Undershirt: MobHumanoidAnyMarking
     Chest: MobOviniaTorso
-    HeadTop: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
+    HeadTop: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
     Eyes: MobHumanoidEyes
     LArm: MobOviniaLArm
@@ -41,8 +42,6 @@
     RLeg: MobOviniaRLeg
     LFoot: MobOviniaLFoot
     RFoot: MobOviniaRFoot
-    NeckFluff: MobHumanoidAnyMarking
-
 - type: markingPoints
   id: MobOviniaMarkingLimits
   points:
