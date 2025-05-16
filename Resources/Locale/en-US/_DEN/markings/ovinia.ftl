@@ -26,8 +26,8 @@ marking-OviniaFace-ovinia-face = Face
 marking-OviniaFace-ovinia-nose = Nose
 
 marking-OviniaSnout = Ovinia Snout
-marking-OviniaFace-ovinia-snout = Snout
-marking-OviniaFace-ovinia-nose = Nose
+marking-OviniaSnout-ovinia-snout = Snout
+marking-OviniaSnout-ovinia-nose = Nose
 
 marking-OviniaTummy = Ovinia Tummy
 marking-OviniaTummy-ovinia-tummy = Tummy
