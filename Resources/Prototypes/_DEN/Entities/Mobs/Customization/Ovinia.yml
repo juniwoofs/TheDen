@@ -3,7 +3,11 @@
   id: OviniaEars
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [ Ovinia ]
+=======
+  speciesRestriction: [ Ovinia, Human ]
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/ear_markings.rsi
     state: ovinia-ears
@@ -14,7 +18,11 @@
   id: OviniaTail
   bodyPart: Tail
   markingCategory: Tail
+<<<<<<< HEAD
   speciesRestriction: [ Ovinia ]
+=======
+  speciesRestriction: [ Ovinia, Human ]
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/tail_markings.rsi
     state: ovinia-tail
@@ -36,7 +44,11 @@
   id: OviniaLambHorns
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [ Ovinia ]
+=======
+  speciesRestriction: [ Ovinia, Human ]
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: lamb-horns
@@ -45,7 +57,11 @@
   id: OviniaRamHorns
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [ Ovinia ]
+=======
+  speciesRestriction: [ Ovinia, Human ]
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-ram-horns
@@ -54,7 +70,11 @@
   id: OviniaPointyHorns
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [ Ovinia ]
+=======
+  speciesRestriction: [ Ovinia, Human ]
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-pointy-horns
@@ -63,7 +83,11 @@
   id: OviniaCurvedHorns
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [ Ovinia ]
+=======
+  speciesRestriction: [ Ovinia, Human ]
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-curved-horns

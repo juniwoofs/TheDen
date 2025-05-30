@@ -11,11 +11,19 @@
   maleFirstNames: names_first_male
   femaleFirstNames: names_first_female
   lastNames: names_last
+<<<<<<< HEAD
   minHeight: 0.5
   defaultHeight: 0.9
   maxHeight: 1.175
   minWidth: 0.65
   defaultWidth: 0.9
+=======
+  minHeight: 0.7
+  # defaultHeight: 0.9 TheDen - disabled due to EE bug, this is currently broken for any value other than 1.
+  maxHeight: 1.3
+  minWidth: 0.65
+  # defaultWidth: 0.9 TheDen - disabled due to EE bug, this is currently broken for any value other than 1.
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
   maxWidth: 1.225
   customName: true
 

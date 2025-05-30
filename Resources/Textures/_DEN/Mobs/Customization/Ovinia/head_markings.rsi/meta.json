@@ -1,7 +1,11 @@
 {
     "version": 1,
     "license": "CC-BY-NC-SA-3.0",
+<<<<<<< HEAD
     "copyright": "Made by juniwoofs",
+=======
+    "copyright": "Made by juniwoofs, Edited by BlitzTheSquishy",
+>>>>>>> 8e333bef1bd94e1baa141fd87224cbf53c638609
     "size": {
         "x": 32,
         "y": 32
