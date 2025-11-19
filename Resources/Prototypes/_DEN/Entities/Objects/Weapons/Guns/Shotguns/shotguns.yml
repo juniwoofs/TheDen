@@ -81,7 +81,7 @@
     - suitStorage
   - type: Gun
     fireRate: 2
-    shotgunSpreadMultiplier: 0.35
+    shotgunSpreadMultiplier: 0.6
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
