@@ -77,13 +77,12 @@
   name: ert-security-loadout-3-name
   description: ert-security-loadout-3-desc
   sprite:
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander.rsi
     state: icon
   content:
-    - WeaponShotgunEnforcer
-    - MagazineShotgun
-    - MagazineShotgun
-    - MagazineShotgunSlug
+    - WeaponShotgunSalamander
+    - MagazineBoxShotgunHighCaliber
+    - MagazineBoxShotgunHighCaliberSlug
     - GrenadeStinger
     - GrenadeStinger
 
