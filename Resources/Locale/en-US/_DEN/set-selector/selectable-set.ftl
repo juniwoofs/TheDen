@@ -44,3 +44,6 @@ ert-medic-loadout-3-desc = A Lecter assault rifle, magazines and stinger grenade
 
 ert-janitor-loadout-1-name = Hazard Response
 ert-janitor-loadout-1-desc = Trashbags, a hydra grenade launcher and plenty of cleanades
+
+ert-cburn-loadout-1-name = Standard Issue
+ert-cburn-loadout-1-desc = The standard CBURN unit loadout, featuring the MA-A49 shotgun.
