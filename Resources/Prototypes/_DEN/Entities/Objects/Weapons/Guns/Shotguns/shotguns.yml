@@ -63,25 +63,59 @@
 
 - type: entity
   name: MA-A49 Salamander
-  parent: [BaseWeaponShotgun, BaseGunWieldable]
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunSalamander
   description: A pump action 8 gauge shotgun designed by Meridian Armouries for close quarters engagements.
   components:
   - type: Item
-    size: Normal
-    shape:
-    - 0,0,4,0
+    size: Large
+    # shape:
+    # - 0,0,4,0
     sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander_inhands_64x.rsi
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander.rsi
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander.rsi
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 2
+    shotgunSpreadMultiplier: 0.35
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    fireOnDropChance: 0.2
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: AmmoCounter
   - type: BallisticAmmoProvider
-    capacity: 7
+    capacity: 6
+    whitelist:
+      tags:
+      - ShellShotgunHeavy
+    proto: ShellShotgunHighCaliber
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+    autoCycle: false
   - type: Tag
     tags:
     - WeaponShotgunSalamander
-  - type: Wieldable
-  - type: Gun
-    shotgunSpreadMultiplier: 0.35
+
+- type: entity
+  name: "MA-A49 Salamander"
+  parent: [WeaponShotgunSalamander]
+  id: WeaponShotgunSalamanderIncendiary
+  suffix: Incendiary
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 6
+    whitelist:
+      tags:
+      - ShellShotgunHeavy
+    proto: ShellShotgunHighCaliberIncendiary
