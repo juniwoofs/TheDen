@@ -105,7 +105,7 @@
     autoCycle: false
   - type: Tag
     tags:
-    - WeaponShotgunSalamander
+    - WeaponShotgunKammerer
 
 - type: entity
   name: "MA-A49 Salamander"

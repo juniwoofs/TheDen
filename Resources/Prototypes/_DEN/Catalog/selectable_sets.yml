@@ -82,7 +82,7 @@
   content:
     - WeaponShotgunSalamander
     - MagazineBoxShotgunHighCaliber
-    - MagazineBoxShotgunHighCaliberSlug
+    - MagazineBoxShotgunSlugHighCaliber
     - GrenadeStinger
     - GrenadeStinger
 
