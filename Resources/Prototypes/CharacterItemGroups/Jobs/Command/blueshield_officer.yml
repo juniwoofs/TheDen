@@ -62,8 +62,8 @@
 #      id: LoadoutBSORifleBRDIR25
 #    - type: loadout
 #      id: LoadoutBSOSMGWT550
-#    - type: loadout
-#      id: LoadoutBSOGreatsword
+    - type: loadout
+      id: LoadoutBSOGreatsword
     - type: loadout
       id: LoadoutBSOShield
 #    - type: loadout

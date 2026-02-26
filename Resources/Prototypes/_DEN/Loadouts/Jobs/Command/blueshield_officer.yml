@@ -175,21 +175,21 @@
     - WeaponPistolBRDIP15
 
 #Spare Mags
-#- type: loadout
-#  id: LoadoutMagazineBRDIP15
-#  category: JobsCommandBlueshieldOfficer
-#  cost: 2
-#  requirements:
-#    - !type:CharacterDepartmentTimeRequirement
-#      department: Security
-#      min: 3600 # 1 hours
-#    - !type:CharacterItemGroupRequirement
-#      group: LoadoutSecurityEquipment
-#    - !type:CharacterJobRequirement
-#      jobs:
-#        - BlueshieldOfficer
-#  items:
-#    - MagazineBRDIP15
+- type: loadout
+  id: LoadoutMagazineBRDIP15
+  category: JobsCommandBlueshieldOfficer
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - BlueshieldOfficer
+  items:
+    - MagazineBRDIP15
 
 #- type: loadout
 #  id: LoadoutMagazineWT550
