@@ -19,17 +19,9 @@
         - Borg
         - MedicalBorg
   functions:
-    - !type:TraitAddComponent
-      components:
-        - type: CumProducer
-          solutionname: penis
-    - !type:TraitAddSolutionContainer
-      solutions:
-        penis:
-          maxVol: 25
-          reagents:
-          - ReagentId: Cum
-            Quantity: 25
+    - !type:TraitAddReagentProduction # Den new reagent production system
+      reagentProductionTypes:
+      - CumProduction
 
 #   components:
 #     - type: CumProducer
@@ -54,17 +46,10 @@
         - Borg
         - MedicalBorg
   functions:
-    - !type:TraitAddComponent
-      components:
-        - type: MilkProducer
-          solutionname: breasts
-    - !type:TraitAddSolutionContainer
-      solutions:
-        breasts:
-          maxVol: 50
-          reagents:
-          - ReagentId: Milk
-            Quantity: 50
+  - !type:TraitAddReagentProduction # Den new reagent production system
+    reagentProductionTypes:
+    - BreastMilkProduction
+
 
 #   components:
 #     - type: MilkProducer
@@ -89,17 +74,9 @@
         - Borg
         - MedicalBorg
   functions:
-    - !type:TraitAddComponent
-      components:
-        - type: SquirtProducer
-          solutionname: vagina
-    - !type:TraitAddSolutionContainer
-      solutions:
-        vagina:
-          maxVol: 25
-          reagents:
-          - ReagentId: NaturalLubricant
-            Quantity: 25
+  - !type:TraitAddReagentProduction # Den new reagent production system
+    reagentProductionTypes:
+    - SquirtProduction
 
 #   components:
 #     - type: SquirtProducer
@@ -124,14 +101,7 @@
         - Borg
         - MedicalBorg
   functions:
-    - !type:TraitAddComponent
-      components:
-        - type: HoneyProducer
-          solutionname: honeystomach
-    - !type:TraitAddSolutionContainer
-      solutions:
-        honeystomach:
-          maxVol: 50
-          reagents:
-          - ReagentId: Honey
-            Quantity: 50
+  - !type:TraitAddReagentProduction # Den new reagent production system
+    reagentProductionTypes:
+    - HoneyProduction
+

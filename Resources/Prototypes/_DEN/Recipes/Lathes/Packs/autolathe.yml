@@ -9,9 +9,11 @@
 # SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Sir Warock
 # SPDX-FileCopyrightText: 2025 Tanix
+# SPDX-FileCopyrightText: 2025 creku
 # SPDX-FileCopyrightText: 2025 pocl v
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Dirius77
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -25,6 +27,7 @@
   - Wirecutter
   - Igniter
   - Signaller
+  - VoiceSensor # wizden
   - Screwdriver
   - Welder
   - Wrench
@@ -160,6 +163,8 @@
   - BoxFolderFireproof
   - PaperPackage
   - Paper
+  - HoloprojectorNSFW
+  - HoloprojectorPrivate
 
 - type: latheRecipePack
   id: AutolatheEmagStaticAwfulDen

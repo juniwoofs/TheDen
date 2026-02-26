@@ -4,11 +4,17 @@
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2025 wheelwrightt
+# SPDX-FileCopyrightText: 2026 Alex C
+# SPDX-FileCopyrightText: 2026 meatsmall
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # head
 loadout-name-LoadoutHeadHatPatrolCap = patrol cap (colorable)
+loadout-name-LoadoutHeadHatFuzzyEarmuffs = fuzzy earmuffs (colorable)
+
+# eyes
+loadout-name-LoadoutClothingEyesGlassesRimless = rimless glasses (colorable)
 
 # mask
 loadout-name-LoadoutClothingMaskBreathFashion = fashion breath mask (colorable)
@@ -21,6 +27,8 @@ loadout-name-LoadoutNeckCloakColorable = cloak (colorable)
 loadout-name-LoadoutClothingNeckSentimentalCollar = sentimental collar (colorable)
 loadout-name-LoadoutNeckNeckScarfWrapped = wrapped scarf (colorable)
 loadout-name-LoadoutClothingNeckHeavyShackles = heavy shackles (colorable)
+loadout-name-LoadoutNeckCollarColorable = collar (colorable)
+loadout-name-LoadoutClothingNeckSpikedCollar = spiked collar (colorable)
 
 # waist
 loadout-name-LoadoutClothingWaistApron = waist apron (colorable)
@@ -40,6 +48,8 @@ loadout-name-LoadoutClothingUniformSimplePants = simple pants (colorable)
 
 # hands
 loadout-name-LoadoutClothingHandsSentimentalRing = sentimental ring (colorable)
+loadout-name-LoadoutHandsGlovesFingerlessColorable = fingerless gloves (colorable)
+loadout-name-LoadoutHandsWristCuffsSpiked = spiked wrist cuffs (colorable)
 
 # plush
 loadout-name-PlushieTeddyBearRecolorable = teddy bear (colorable)
@@ -70,5 +80,6 @@ character-item-group-LoadoutPrescriptionAnxiolytic = Anxiolytics
 character-item-group-LoadoutPrescriptionAntidepressant = Antidepressants
 character-item-group-LoadoutCostumeBundles = Costume Bundles
 
-# ??? good enough i guess
+# misc
 character-item-group-LoadoutMagicMirrors = Hair Styling Tools
+character-item-group-LoadoutGroupGlorbs = Glorbs

@@ -127,6 +127,8 @@
         - TrayScanner
         - GasAnalyzer
         - HandLabeler
+        - AccessOverrider
+        - Signaller
   - type: ItemMapper
     mapLayers:
       drill:
@@ -338,6 +340,7 @@
         - WetFloorSign
         - HolosignProjector
         - Plunger
+        - WireBrush
       components:
         - LightReplacer
         - SmokeOnTrigger
@@ -622,6 +625,8 @@
         - CombatKnife
         - Truncheon
         - HolofanProjector
+        - SimpleMeleeWeapon
+        - SecTicket
       components:
         - Stunbaton
         - FlashOnTrigger

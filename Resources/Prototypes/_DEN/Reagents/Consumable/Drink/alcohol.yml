@@ -2,7 +2,9 @@
 # SPDX-FileCopyrightText: 2025 TheOneTrueWolfio
 # SPDX-FileCopyrightText: 2025 Vanessa
 # SPDX-FileCopyrightText: 2025 Winter
+# SPDX-FileCopyrightText: 2025 pocl v
 # SPDX-FileCopyrightText: 2025 pocl.v
+# SPDX-FileCopyrightText: 2026 Marcel
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -935,7 +937,7 @@
         emote: Gasp
         showInChat: true
         force: true
-        probability: 0.35
+        probability: 0.02
   fizziness: 0.5
 
 - type: reagent
@@ -957,11 +959,6 @@
       effects:
         - !type:SatiateThirst
           factor: 2
-        - !type:Emote
-          emote: Gasp
-          showInChat: true
-          force: true
-          probability: 0.35
   fizziness: 0.5
 
 - type: reagent
@@ -986,9 +983,28 @@
         - !type:AdjustReagent
           reagent: Ethanol
           amount: 0.1
-        - !type:Emote
-          emote: Gasp
-          showInChat: true
-          force: true
-          probability: 0.35
   fizziness: 0.5
+
+- type: reagent
+  id: Chainmail
+  name: reagent-name-chainmail
+  parent: BaseAlcohol
+  desc: reagent-desc-chainmail
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: chainmail
+  color: "#beab9d"
+  metamorphicSprite:
+    sprite: _DEN/Objects/Consumable/Drinks/chainmail.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 2
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+        - !type:SatiateThirst
+          factor: 1
+        - !type:AdjustReagent
+          reagent: Ethanol
+          amount: 0.16
+  fizziness: 0.2

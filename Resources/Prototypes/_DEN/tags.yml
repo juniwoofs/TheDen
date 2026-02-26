@@ -14,8 +14,9 @@
 # SPDX-FileCopyrightText: 2025 juniwoofs
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Dirius77
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # KEEP THIS IN ALPHABETICAL ORDER!!!!!!!!!!!!!!!!!!!
 
@@ -48,6 +49,9 @@
 
 - type: Tag
   id: Fish
+
+- type: Tag
+  id: Headwear
 
 - type: Tag
   id: MagazineBRDIP15
@@ -118,6 +122,9 @@
   id: ScienceTool
 
 - type: Tag
+  id: CalciumEmotes
+
+- type: Tag
   id: Syrup
 
 - type: Tag
@@ -137,3 +144,6 @@
 
 - type: Tag
   id: Xeno
+
+- type: Tag
+  id: BodyDissolverTack

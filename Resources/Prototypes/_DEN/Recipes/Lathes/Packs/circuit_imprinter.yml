@@ -1,6 +1,8 @@
+# SPDX-FileCopyrightText: 2025 DoctorJado
 # SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Sir Warock
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Kellaris
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -46,12 +48,14 @@
   - ThermomachineFreezerMachineCircuitBoard # Assmos - Moved to staticRecipes from dynamicRecipes
   - SalvageExpeditionsComputerCircuitboard
   - OperatingTableCircuitboard # Shitmed Change
+  - ComputerStationJobsCircuitboard
 
 - type: latheRecipePack
   id: CircuitImprinterDynamicAwfulDen
   recipes:
   - SeedExtractorMachineCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
+  - ReagentGrinderAdvancedMachineCircuitboard
   - DroneElectronics
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
