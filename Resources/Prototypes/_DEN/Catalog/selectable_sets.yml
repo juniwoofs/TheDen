@@ -49,7 +49,7 @@
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi
     state: base
   content:
-    - WeaponRifleAnnie
+    - WeaponRiflBSOAk
     - MagazineLightRifle
     - MagazineLightRifle
     - MagazineLightRifle
@@ -138,10 +138,10 @@
   name: ert-engineer-loadout-4-name
   description: ert-engineer-loadout-4-desc
   sprite:
-    sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi
+    sprite: _DEN/Objects/Weapons/Guns/Battery/pulse_pdw.rsi
     state: base
   content:
-    - WeaponDisablerSMG
+    - WeaponPulsePDW
     - TearGasGrenade
     - TearGasGrenade
     - GrenadeStinger
@@ -191,10 +191,10 @@
   name: ert-medic-loadout-2-name
   description: ert-medic-loadout-2-desc
   sprite:
-    sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi
+    sprite: _DEN/Objects/Weapons/Guns/Battery/pulse_pdw.rsi
     state: base
   content:
-    - WeaponDisablerSMG
+    - WeaponPulsePDW
     - MedkitCombatFilled
     - TearGasGrenade
     - TearGasGrenade
