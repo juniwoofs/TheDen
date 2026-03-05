@@ -9,10 +9,11 @@
 // SPDX-FileCopyrightText: 2025 Cami
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 Tabitha
+// SPDX-FileCopyrightText: 2025 Tanix
 // SPDX-FileCopyrightText: 2025 VMSolidus
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using Content.Server._DEN.Vocal;
 using Content.Server.Actions;
@@ -44,8 +45,7 @@ public sealed class VocalSystem : EntitySystem
     [Dependency] private readonly ILogManager _log = default!;
     [Dependency] private readonly AdditionalVocalSoundsSystem _additionalVocalSounds = default!;
 
-    [ValidatePrototypeId<ReplacementAccentPrototype>]
-    private const string MuzzleAccent = "mumble";
+    private readonly ProtoId<ReplacementAccentPrototype> _muzzleAccent = "mumble";
 
     public override void Initialize()
     {
@@ -86,7 +86,7 @@ public sealed class VocalSystem : EntitySystem
         if (args.Handled
             || !args.Emote.Category.HasFlag(EmoteCategory.Vocal)
             || !_actionBlocker.CanSpeak(uid)
-            || TryComp<ReplacementAccentComponent>(uid, out var replacement) && replacement.Accent == MuzzleAccent)
+            || TryComp<ReplacementAccentComponent>(uid, out var replacement) && replacement.Accent == _muzzleAccent)
             return;
 
         Dictionary<string, SoundSpecifier> sounds = component.EmoteSounds?.Sounds != null ? new(component.EmoteSounds.Sounds) : new(); // TheDen - Add Voice

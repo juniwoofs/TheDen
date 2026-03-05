@@ -17,7 +17,7 @@
 # SPDX-FileCopyrightText: 2022 ZeroDayDaemon
 # SPDX-FileCopyrightText: 2022 Zymem
 # SPDX-FileCopyrightText: 2022 and_a
-# SPDX-FileCopyrightText: 2022 fishfish458 <fishfish458>
+# SPDX-FileCopyrightText: 2022 fishfish458
 # SPDX-FileCopyrightText: 2022 lapatison
 # SPDX-FileCopyrightText: 2022 metalgearsloth
 # SPDX-FileCopyrightText: 2022 ninruB
@@ -34,7 +34,6 @@
 # SPDX-FileCopyrightText: 2023 Whisper
 # SPDX-FileCopyrightText: 2023 crazybrain23
 # SPDX-FileCopyrightText: 2023 deltanedas
-# SPDX-FileCopyrightText: 2023 deltanedas <@deltanedas:kde.org>
 # SPDX-FileCopyrightText: 2023 liltenhead
 # SPDX-FileCopyrightText: 2023 nukashimika
 # SPDX-FileCopyrightText: 2023 vanx
@@ -54,7 +53,7 @@
 # SPDX-FileCopyrightText: 2025 mart
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: entity
   parent: ClothingBackpackDuffelMedical
@@ -312,11 +311,8 @@
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicatePyjamaBundle
   name: syndicate pyjama duffel bag
-  description: Contains 3 pairs of syndicate pyjamas and 3 plushies for the ultimate sleepover.
+  description: Contains 3 pairs of syndicate pyjamas and 4 plushies for the ultimate sleepover.
   components:
-  - type: Storage
-    grid:
-    - 0,0,8,4
   - type: StorageFill
     contents:
       - id: ClothingUniformJumpsuitPyjamaSyndicateRed
@@ -508,10 +504,10 @@
   description: "All you need to get your comrades back in the fight."
   components:
   - type: StorageFill
-    contents:
+    contents: # DEN - Change contents so that 2 medkits fit
       - id: DefibrillatorSyndicate
       - id: MedkitCombatFilled
-        amount: 4
+        amount: 2
       - id: Tourniquet
         amount: 4
       - id: CombatMedipen

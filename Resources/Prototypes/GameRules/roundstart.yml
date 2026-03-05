@@ -191,12 +191,12 @@
   components:
   - type: GameRule
     delay:
-      min: 240
-      max: 420
+      min: 1800
+      max: 2400
   - type: AntagSelection
     definitions:
     - prefRoles: [ Traitor ]
-      max: 6 # Floof - Balance around Security Pop
+      max: 4 # Floof - Balance around Security Pop
       playerRatio: 10
       blacklist:
         components:
@@ -212,12 +212,12 @@
   components:
   - type: GameRule
     delay:
-      min: 240
-      max: 420
+      min: 1800
+      max: 2400
   - type: AntagSelection
     definitions:
     - prefRoles: [ Traitor ]
-      max: 10 # Floof - Balance around Security Pop
+      max: 6 # DEN - Balance around security pop
       playerRatio: 10
       blacklist:
         components:
@@ -375,10 +375,10 @@
   components:
   - type: RoundstartStationVariationRule
     rules:
-#    - id: BasicPoweredLightVariationPass
+    - id: BasicPoweredLightVariationPass
     - id: BasicTrashVariationPass
-#    - id: SolidWallRustingVariationPass
-#    - id: ReinforcedWallRustingVariationPass
+    - id: SolidWallRustingVariationPass
+    - id: ReinforcedWallRustingVariationPass
     - id: BasicPuddleMessVariationPass
       prob: 0.99
       orGroup: puddleMess

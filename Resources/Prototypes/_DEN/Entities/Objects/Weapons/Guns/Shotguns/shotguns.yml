@@ -1,15 +1,18 @@
 # SPDX-FileCopyrightText: 2025 Blitz
 # SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2025 Steven Higginbotham
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: entity
   name: soul-shatter
-  parent: BaseWeaponShotgun
+  parent: [BaseWeaponShotgun, BaseMantisContraband]
   id: WeaponShotgunSoulshatter
-  description: A flashy, pocket-sized shotgun with a marble style grip. Provides no tactical advantage. Uses 12 gauge shells.
+  suffix: DO NOT MAP # Mantes shouldn't get free lethals
+  description: "A gloomy sawn-off double barrel with an amaranth grip. Provides no tactical advantage. Uses 12 gauge shells."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Shotguns/soulshatter.rsi
@@ -25,7 +28,7 @@
     fireOnDropChance: 0.5
   - type: BallisticAmmoProvider
     capacity: 2
-    proto: null
+    proto: ShellSoulbreaker # Fine to start loaded since it's no longer mapped (mantis guns were repurposed, and this can be for admemes)
   - type: MeleeWeapon
     attackRate: 1.2
     damage:
@@ -33,6 +36,9 @@
         Blunt: 7.5
   - type: DamageOtherOnHit
     staminaCost: 6
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   name: antique energy shotgun
@@ -119,3 +125,76 @@
       tags:
       - ShellShotgunHeavy
     proto: ShellShotgunHighCaliberIncendiary
+
+- type: entity
+  name: MA-A49 Salamander
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
+  id: WeaponShotgunSalamander
+  description: A pump action 8 gauge shotgun designed by Meridian Armouries for close quarters engagements.
+  components:
+  - type: Item
+    size: Large
+    # shape:
+    # - 0,0,4,0
+    sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander_inhands_64x.rsi
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander.rsi
+  - type: Clothing
+    sprite: _DEN/Objects/Weapons/Guns/Shotguns/salamander.rsi
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 2
+    shotgunSpreadMultiplier: 0.6
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    fireOnDropChance: 0.2
+  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: AmmoCounter
+  - type: BallisticAmmoProvider
+    capacity: 6
+    whitelist:
+      tags:
+      - ShellShotgunHeavy
+    proto: ShellShotgunHighCaliber
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+    autoCycle: false
+  - type: Tag
+    tags:
+    - WeaponShotgunKammerer
+
+- type: entity
+  name: "MA-A49 Salamander"
+  parent: [WeaponShotgunSalamander]
+  id: WeaponShotgunSalamanderIncendiary
+  suffix: Incendiary
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 6
+    whitelist:
+      tags:
+      - ShellShotgunHeavy
+    proto: ShellShotgunHighCaliberIncendiary
+
+- type: entity
+  parent: WeaponShotgunKammerer
+  id: WeaponShotgunKammererEmpty # DEN
+  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses 12 gauge shells.
+  suffix: Beanbag
+  components:
+  - type: Sprite
+    sprite: _DV/Objects/Weapons/Guns/Shotguns/pump.rsi # Delta-V
+  - type: Clothing
+    sprite: _DV/Objects/Weapons/Guns/Shotguns/pump.rsi # Delta-V
+  - type: BallisticAmmoProvider
+    capacity: 4
+    proto: null

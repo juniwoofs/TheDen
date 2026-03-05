@@ -10,7 +10,11 @@
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 SixplyDev
 # SPDX-FileCopyrightText: 2025 Skubman
+# SPDX-FileCopyrightText: 2025 Winter
+# SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Kellaris
+# SPDX-FileCopyrightText: 2026 sheepie
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -346,22 +350,34 @@
     - id: PlushieArachind
       prob: 0.01
       orGroup: Plushies
-    - id: PlushieGrim # TheDen
-      prob: 0.01
-      orGroup: Plushies
     - id: PlushieVega # TheDen
-      prob: 0.01
-      orGroup: Plushies
-    - id: PlushieAlice # TheDen
       prob: 0.01
       orGroup: Plushies
     - id: PlushieThrongler #hehe
       prob: 0.0005
       orGroup: Plushies
-    - id: PlushieTabi # TheDen
+    - id: PlushieJenn # TheDen
       prob: 0.01
       orGroup: Plushies
-    - id: PlushieJenn # TheDen
+    - id: PlushieAzalea # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushieWhistler # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushiePatty # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushieTwiggy # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushieStu # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushiePhil # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushieMothObservant # TheDen
       prob: 0.01
       orGroup: Plushies
     #useful

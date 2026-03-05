@@ -5,6 +5,7 @@
 # SPDX-FileCopyrightText: 2025 leo
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Asa
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -343,6 +344,9 @@
       - id: PlushieThaven #TheDen
         prob: 0.80
         orGroup: Prize
+      - id: TennisBall #TheDen
+        prob: 0.80
+        orGroup: Prize
       # Uncommon
       - id: PrizeTicket60
         prob: 0.50
@@ -372,9 +376,6 @@
         prob: 0.50
         orGroup: Prize
       - id: PlushieAbductor
-        prob: 0.50
-        orGroup: Prize
-      - id: PlushieGrim
         prob: 0.50
         orGroup: Prize
       - id: PlushieDignifiedVulp

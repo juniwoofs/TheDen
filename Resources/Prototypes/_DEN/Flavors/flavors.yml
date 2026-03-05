@@ -1,7 +1,9 @@
 # SPDX-FileCopyrightText: 2025 Eightballll
+# SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 Tabitha
 # SPDX-FileCopyrightText: 2025 Winter
 # SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2026 Marcel
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -229,3 +231,23 @@
   id: vodkacheers
   flavorType: Complex
   description: flavor-complex-vodkacheers
+
+- type: flavor
+  id: mantispaper
+  flavorType: Complex
+  description: flavor-complex-mantispaper
+
+- type: flavor
+  id: mnemolith
+  flavorType: Complex
+  description: flavor-complex-mnemolith
+
+- type: flavor
+  id: holidaycheer
+  flavorType: Complex
+  description: flavor-complex-holiday-cheer
+
+- type: flavor
+  id: chainmail
+  flavorType: Complex
+  description: flavor-complex-chainmail

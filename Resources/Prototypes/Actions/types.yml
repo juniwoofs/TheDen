@@ -30,10 +30,19 @@
 # SPDX-FileCopyrightText: 2024 sleepyyapril
 # SPDX-FileCopyrightText: 2025 Skubman
 # SPDX-FileCopyrightText: 2025 Spatison
+# SPDX-FileCopyrightText: 2025 eightballll
+# SPDX-FileCopyrightText: 2026 MajorMoth
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # base actions
+
+# base prototype for all action entities
+- type: entity
+  abstract: true
+  id: BaseAction
+  components:
+  - type: Actions
 
 - type: entity
   id: BaseSuicideAction
@@ -82,7 +91,7 @@
 - type: entity
   id: ActionOpenStorageImplant
   name: Open Storage Implant
-  description: Opens the storage implant embedded under your skin
+  description: Opens or closes the storage implant embedded under your skin; note that it cannot store high value or storage based items. # DeltaV
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -197,6 +206,8 @@
   description:  Randomly changes your name and appearance.
   categories: [ HideSpawnMenu ]
   components:
+  - type: ConfirmableAction
+    popup: dna-scramble-action-popup
   - type: InstantAction
     charges: 1
     itemIconStyle: BigAction
@@ -413,7 +424,7 @@
       iconOn: { sprite: Interface/Actions/wagging.rsi, state: icon-on }
       itemIconStyle: NoItem
       useDelay: 1 # emote spam
-      event: !type:ToggleActionEvent
+      event: !type:WaggingActionEvent
 
 - type: entity
   id: ActionFabricateLollipop

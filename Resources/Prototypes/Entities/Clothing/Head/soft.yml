@@ -15,8 +15,10 @@
 # SPDX-FileCopyrightText: 2024 VMSolidus
 # SPDX-FileCopyrightText: 2024 sleepyyapril
 # SPDX-FileCopyrightText: 2024 themias
+# SPDX-FileCopyrightText: 2025 RosySaturniidae
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2026 pocl v
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -126,7 +128,7 @@
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCorpsoft
   name: corporate cap
-  description: A baseball bat in corporation colors.
+  description: A baseball hat in corporation colors. # den edit typo correction
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
@@ -316,9 +318,9 @@
   description: "It's a paramedic's baseball hat with a medical logo."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/paramedicsoft.rsi
+    sprite: _DEN/Clothing/Head/Soft/paramedicsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/paramedicsoft.rsi
+    sprite: _DEN/Clothing/Head/Soft/paramedicsoft.rsi
   - type: Tag
     tags:
     - ClothMade

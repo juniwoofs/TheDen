@@ -112,6 +112,7 @@
     CostumeBundleYakuza: 2
     CostumeBundleBunnySuit: 2
     CostumeBundleSafari: 2
+    CostumeBundleBaseballNT: 2
     # DEN end
 
     # Boxer. I guess
@@ -178,6 +179,7 @@
     UniformGeisha: 1 # Nyano - Clothing addition
     ClothingUniformJumpskirtJanimaid: 2
     ClothingUniformJumpsuitBlackTurtleneck : 2 # DeltaV - Clothing addition
+    ClothingUniformJumpsuitBlackTurtleneckShorts : 2 # The Den - Clothing addition
     ClothingUniformJumpsuitKilt: 3 # DeltaV - SCOTTTTLANDDDDD FURREVERRRRR!!
     ClothingUniformJumpsuitKimono: 1
     ClothingUniformJumpsuitSober: 1 # DeltaV - Clothing addition
@@ -219,3 +221,4 @@
     ClothingMaskSexyClown: 1
     ClothingMaskSexyMime: 1
     ClothingHeadHatCowboyBountyHunter: 1
+    CostumeBundleBaseballSyndie: 1 # den edit - let's play baseball!

@@ -46,6 +46,9 @@
 # SPDX-FileCopyrightText: 2025 foxcurl
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 somekindofbox
+# SPDX-FileCopyrightText: 2026 Jadrek
+# SPDX-FileCopyrightText: 2026 entings
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -362,27 +365,27 @@ trait-description-WeaponsGeneralist =
 
 trait-name-Mystic = Mystic
 trait-description-Mystic =
-    You are trained in Mysticism instead of melee combat, reducing your melee capabilities but drastically increasing your psionic potential.
+    You are trained in mysticism instead of melee combat, reducing your melee capabilities but drastically increasing your psionic potential.
     Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 10%, but your Potentia gain is drastically increased.
 
 trait-name-Singer = Singer
 trait-description-Singer = You are naturally capable of singing simple melodies with your voice.
 
-trait-name-LatentPsychic = Latent Psychic
+trait-name-LatentPsychic = Latent Psion
 trait-description-LatentPsychic =
     Your mind and soul are open to the noosphere, allowing you to hear telepathy.
-    Thus, you are eligible for potentially receiving psychic powers.
+    Thus, you are eligible for potentially receiving psionic powers.
     It is possible that you may be hunted by otherworldly forces, so consider keeping your powers a secret.
 
 trait-name-PsionicInsulation = χ Waveform Misalignment
 trait-description-PsionicInsulation =
     Whether through implants or by way of innate psionic insulation, your consciousness is isolated from the noosphere.
-    The good news is that you are immune to most positive and negative effects of psychic powers.
+    The good news is that you are immune to most positive and negative effects of psionic powers.
     There may be other consequences to this malady.
 
 trait-name-NaturalTelepath = Natural Telepath
 trait-description-NaturalTelepath =
-    As a telepath, you are capable of fluent telepathic communication. While all psychics can hear telepathy, you will be able to speak with it.
+    As a telepath, you are capable of fluent telepathic communication. While all psions can hear telepathy, you will be able to speak with it.
     This power does not reduce your ability to gain new powers.
 
 trait-name-TrapAvoider = Trap Avoider
@@ -394,7 +397,7 @@ trait-name-AnomalousPositronics = Anomalous Positronics
 trait-description-AnomalousPositronics =
     Whether by intentional design from the manufacturer, black market modifications, or accidental omission,
     your positronic brain lacks its standard psionic insulation. As a being that can be argued to have a soul,
-    this by extension means that it is possible for you to be influenced by the Noosphere.
+    this by extension means that it is possible for you to be influenced by the noosphere.
 
 trait-name-Photophobia = Photophobia
 trait-description-Photophobia =
@@ -445,16 +448,16 @@ trait-description-NaturalWeaponRemoval =
     This could have been done to better fit in with terran space stations, or as a cosmetic choice.
     As a result, your unarmed attacks deal Blunt damage instead of the standard damage type for your species.
     This has no effect on damage dealt with any form of armed melee.
-
+# Den edit
 trait-name-StrikingCalluses = Striking Calluses
 trait-description-StrikingCalluses =
     An iconic enhancement commonly found in the world of cyberenhanced martial arts.
     Striking Calluses consist of bony dermal deposits grafted into a user's hands, either inside the palm
     for "Tiger Style" fighting, or just below the knuckles for those who favor traditional boxing.
     Owners of prosthetic or bionic limbs would instead have a hard plastic shell over their knuckles.
-    These enhancements increase your unarmed strike damage by 2 point base, but do not confer
-    any benefits to any form of armed melee.
-
+    Your unarmed melee attacks deal blunt instead of the standard damage type for your species.
+    Additionally, it increases your unarmed damage by 2 blunt at base. This does not confer any benefit to armed melee.
+# end Den edit
 trait-name-Spinarette = Bionic Spinarette
 trait-description-Spinarette =
     This vatgrown organ-- trademarked and patented by the Cybersun Corporation, is marketed as a highly
@@ -541,8 +544,8 @@ trait-description-HighAmplification =
 
 trait-name-PowerOverwhelming = Power Overwhelming
 trait-description-PowerOverwhelming =
-    "WITNESS MY HATE, MORTALS - COWER BEFORE MY PSIONIC MIGHT! REALITY IS AS I DEEM IT."
-    Your psionic abilities are twice as strong as those of other psions, and you cannot be psionically insulated.  You will not be stopped.
+    "WITNESS MY HATE, MORTALS--COWER BEFORE MY PSIONIC MIGHT! REALITY IS AS I DEEM IT."
+    Your psionic abilities are twice as strong as those of other psions, and you cannot be psionically suppressed. You will not be stopped.
 
 trait-name-LowDampening = kδ Defect
 trait-description-LowDampening =
@@ -612,7 +615,7 @@ trait-name-DispelPower = Normality Projection
 trait-description-DispelPower =
     Your mentalic abilities include the power to enforce normality upon noospheric phenomena.
     This power, commonly known as "Dispel", allows the user to destroy otherworldly entities with their mind,
-    or to immediately end psychic effects.
+    or to immediately end psionic effects.
 
 trait-name-MetapsionicPower = Metapsion
 trait-description-MetapsionicPower =
@@ -763,6 +766,9 @@ trait-description-Caprine = A language spoken by the Ovinia, the language is com
 trait-name-Synthetic = Synthetic
 trait-description-Synthetic = You are a biomechanical construct, who bleeds coolant and is notified of ongoing Ion Storms.
 
+trait-name-SyntheticVoicebox = Synthetic Voicebox
+trait-description-SyntheticVoicebox = Your vocal apparatus is itself synthetic, and starts to malfunction when you are injured.
+
 trait-name-NoContractions = No Contractions
 trait-description-NoContractions = You are (mostly) incapable of using contractions.
 
@@ -781,3 +787,38 @@ trait-name-PainNumbness = Pain Numbness
 trait-description-PainNumbness =
     Whether due to a rare mutation, freak medical accident, or some other reason, you're not able to feel pain
     making it much eaiser to miss possibly life threatening injuries.
+
+trait-name-BlackBlood = Black Blood
+trait-description-BlackBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces Black Blood instead of whatever blood your species normally generates.
+
+trait-name-InsectBlood = Insect Blood
+trait-description-InsectBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces Insect Blood instead of whatever blood your species normally generates.
+
+trait-name-BlueBlood = Blue Blood
+trait-description-BlueBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces Blue Blood instead of whatever blood your species normally generates.
+
+trait-name-SlimeBlood = Slime Blood
+trait-description-SlimeBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces slime instead of whatever blood your species normally generates.
+
+trait-name-RedBlood = Red Blood
+trait-description-RedBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces regular blood instead of whatever blood your species normally generates.
+
+trait-name-AmmoniaBlood = Ammonia Blood
+trait-description-AmmoniaBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces Ammonia Blood instead of whatever blood your species normally generates.
+
+trait-name-ShimmeringBlood = Psychedelic Blood
+trait-description-ShimmeringBlood =
+    Either due to a blood transfusion, inheritance from your parents, or some other reason, your body contains different blood than usual.
+    Your body produces Psychedelic Blood instead of whatever blood your species normally generates. [color=red]Note:[/color] Due to Psychedelic Blood being hallucinogenic, this comes with additional trait cost.

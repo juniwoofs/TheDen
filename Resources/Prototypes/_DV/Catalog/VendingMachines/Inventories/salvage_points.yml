@@ -44,9 +44,17 @@
     cost: 450
   - id: ClothingEyesGlassesGarMeson
     cost: 500
+  - id: ClothingEyesNightVisionGoggles
+    cost: 2000
   - id: ClothingBeltSalvageWebbing
     cost: 500
-  - id: PlasteelArmingSword
+  - id: PlasteelArmingSwordSalvage
+    cost: 500
+  - id: PlasteelMaceSalvage
+    cost: 500
+  - id: PlasteelEpeeSalvage
+    cost: 500
+  - id: PlasteelAxeSalvage
     cost: 500
   - id: ClothingShoesBootsJack
     cost: 550
@@ -124,9 +132,9 @@
  # - id: WeaponPlasmaCutter -- TODO: Port from goob
  #   cost: 1700
   - id: SpaceCash1000
-    cost: 1000
+    cost: 2000
   - id: SpaceCash10000
-    cost: 10000
+    cost: 20000
   - id: ShelterCapsule
     cost: 2000
   # TODO: super resonator for 2500

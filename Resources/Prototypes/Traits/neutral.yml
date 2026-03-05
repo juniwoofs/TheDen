@@ -10,9 +10,11 @@
 # SPDX-FileCopyrightText: 2025 Lawdog
 # SPDX-FileCopyrightText: 2025 Peptide90
 # SPDX-FileCopyrightText: 2025 Skubman
+# SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 entings
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: trait
   id: PirateAccent
@@ -36,8 +38,7 @@
         - StationAi
         - Borg
         - MedicalBorg
-    - !type:CharacterItemGroupRequirement
-      group: TraitsAccents
+  # DEN: No trait group requirement, does not contribute to accent limit
   functions:
     - !type:TraitAddComponent
       components:
@@ -186,3 +187,21 @@
         - type: ReplacementAccent
           replacementChance: 0.15
           accent: liar
+
+- type: trait
+  id: SyntheticVoicebox
+  category: TraitsSpeechAccents
+  points: 0 # no mechanical benefit
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - StationAi
+        - Borg
+        - MedicalBorg
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: DamagedSiliconAccent
+          enableChargeCorruption: false
+          damageAtMaxCorruption: 200
